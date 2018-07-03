@@ -8,4 +8,6 @@ Here it is the file: [wcag21.html](http://www.a12e.tk/wcag/wcag21.html)
 
 Now you know what is new and what was deleted. Fork this repo and edit the [wcag21.html](wcag21.html) putting the old text already translated in the new HTML structure and translate the new content. Don't forget to remove completely the elements &lt;span class="rcl-da"&gt; (content added, word by word) and the &lt;span class="rcl-dd"&gt; (content deleted, word by word).
 
+Delete also the JF block - a short CSS properties placed near the bottom of the &lt;head&gt; element of the page.
+
 At the end you will have a WCAG 2.1's document completely translated and with the right structure and HTML format to send to W3C/WAI.
