@@ -1675,7 +1675,7 @@
 
 			<div class="doclinks"><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Compreendendo Idioma da Página</a> <span class="screenreader">|</span> <br><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-page">Como satisfazerIdioma da Página</a></div><p class="conformance-level">(Nível A)</p>
 
-			<p>A <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua humana</a> (idioma)predefinida de cada <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a> pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinada</a>.</p>
+			<p>A <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua/linguagem humana</a> (idioma) predefinida de cada <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a> pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinada</a>.</p>
 		</section>
 
 		<section class="sc" id="language-of-parts">
@@ -1684,7 +1684,7 @@
 
 			<div class="doclinks"><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html">Compreendendo Idioma das Partes</a> <span class="screenreader">|</span> <br><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts">Como satisfazer Idioma das Partes</a></div><p class="conformance-level">(Nível AA)</p>
 
-			<p>A <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua humana</a> (idioma) de cada passagem ou frase de um conteúdo pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinada</a> exceto para os nomes próprios, termos técnicos, palavras em idioma indeterminado, e em palavras ou frases que se tornaram parte do léxico do texto imediatamente envolvente.</p>
+			<p>A <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua/linguagem humana</a> (idioma) de cada passagem ou frase de um conteúdo pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinada</a> exceto para os nomes próprios, termos técnicos, palavras em idioma indeterminado, e em palavras ou frases que se tornaram parte do léxico do texto imediatamente envolvente.</p>
 
 		</section>
 
@@ -2055,6 +2055,21 @@
 	<!--OddPage--><h2 id="x6-glossary"><span class="secno">6. </span>Glossário<span class="permalink"><a href="#glossary" aria-label="Permalink for 6. Glossário" title="Permalink for 6. Glossário"><span>§</span></a></span></h2>
 
 	<dl id="terms">
+		<dt><dfn data-dfn-type="dfn" id="dfn-same-functionality">a mesma funcionalidade</dfn></dt>
+		<dd>
+			<p>o mesmo resultado quando usado como</p>
+			<p class="example">Um botão "pesquisa" numa página Web e um botão "buscar" numa outra página Web devem ter ambos um campo para introduzir o termo e a lista de tópicos do sítio Web relacionada com o termo submetido.  Neste caso, eles teriam a mesma funcionalidade mas não seriam etiquetados consistentemente.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-same-relative-order">a mesma ordem relativa</dfn></dt>
+		<dd>
+			<p>same position relative to other items</p>
+			<div class="note" id="issue-container-generatedID-125">
+				<div role="heading" class="note-title marker" id="h-note-125" aria-level="3"><span>Nota</span>
+				</div>
+				<p class="">Os itens são considerados estar na mesma ordem relativa mesmo se forem inseridos ou removidos outros itens da ordem original. Por exemplo, os menus de navegação de expansão devem inserir um nível adicional de detalhe, ou uma secção secundária de navegação deve ser inserida dentro da ordem de leitura.</p>
+			</div>
+		</dd>
 
 		<dt><dfn data-lt="abbreviations|abbreviation" data-dfn-type="dfn" id="dfn-abbreviations">abreviação</dfn></dt>
 		<dd>
@@ -2073,6 +2088,577 @@
 				</li>
 			</ol>
 			<div class="note" id="issue-container-generatedID-41"><div role="heading" class="note-title marker" id="h-note-41" aria-level="3"><span>Nota</span></div><p class="">Algumas empresas adotaram, o que anteriormente eram siglas ou acrónimos, como o nome respetivo da empresa. Nestes casos, o novo nome da empresa corresponde às letras (por exemplo, Ecma), deixando a palavra de ser considerada como uma abreviatura.</p></div>
+		</dd>
+
+		<dt><dfn data-lt="user agents|user agent" data-dfn-type="dfn" id="dfn-user-agents">agente de utilizador</dfn></dt>
+		<dd>
+			<p>qualquer software que recolhe e apresenta conteúdo Web para os utilizadores</p>
+			<p class="example">Navegadores Web, leitores de media, plug-ins e outros programas — incluindo <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn">tecnologias de apoio</a> — que ajudam na captura, interpretação e interação com o conteúdo Web.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-context-sensitive-help">ajuda contextualizada</dfn></dt>
+		<dd>
+			<p>texto de ajuda que disponibiliza informação relacionada com a função em execução no momento</p>
+			<div class="note" id="issue-container-generatedID-73"><div role="heading" class="note-title marker" id="h-note-73" aria-level="3"><span>Nota</span></div><p class="">Etiquetas escritas com clareza podem servir de ajuda contextualizada.</p></div>
+		</dd>
+
+		<dt><dfn data-lt="change of context|changes of context" data-dfn-type="dfn" id="dfn-change-of-context">alterações do contexto</dfn></dt>
+		<dd>
+
+			alterações significativas no conteúdo da página Web que, se efetuadas sem conhecimento do utilizador, podem desorientar os utilizadores que não são capazes de ver a página como um todo
+
+			<p>alterações significativas no conteúdo da <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a> que, se feitas sem que disso o utilizador tenha consciência, podem desorientar os utilizadores que não são capazes de abranger a página no seu todo</p>
+			<p>As alterações no contexto incluem alterações de:</p>
+			<ol>
+				<li><a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a>;</li>
+				<li><a href="#dfn-viewport" class="internalDFN" data-link-type="dfn">viewport (ecrã de visualização)</a>;</li>
+				<li>foco;</li>
+				<li><a href="#dfn-content" class="internalDFN" data-link-type="dfn">conteúdo</a> que altera o significado da <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a></li>
+			</ol>
+			<div class="note" id="issue-container-generatedID-65"><div role="heading" class="note-title marker" id="h-note-65" aria-level="3"><span>Nota</span></div><p class="">Uma alteração de conteúdo nem sempre corresponde a uma alteração de contexto. Alterações de conteúdo tais como a expansão de uma descrição geral, de um menu dinâmico, ou a expansão de um separador não altera necessariamente o contexto, a menos que eles alterem também um dos elementos acima (e.g., o foco).</p></div>
+			<p class="example">Abrir uma nova janela, mover no foco para um componente diferente, ir para uma nova página  (incluindo qualquer coisa que dê a sensação ao utilizador de se ter deslocado para uma nova página) ou reorganizar significativamente o conteúdo de uma página, são exemplos de alterações de contexto.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-media-alternative-for-text">alternativa em media para texto</dfn></dt>
+		<dd>
+			<p>media que não apresenta mais informação à que já é apresentada em texto (diretamente ou por via de alternativas em texto)</p>
+			<div class="note" id="issue-container-generatedID-107"><div role="heading" class="note-title marker" id="h-note-107" aria-level="3"><span>Nota</span></div><p class="">Uma alternativa em media para texto é disponibilizada para aqueles que beneficiam de representações alternativas de texto. As alternativas em media para texto podem ser conteúdo de apenas áudio, apenas vídeo (incluindo vídeo de língua gestual), ou áudio-vídeo.</p></div>
+		</dd>
+		<dd class="new">
+			<p>adição de passos entre condições para criar a ilusão de movimento ou dar uma sensação de transição suave</p>
+			<p class="example">Por exemplo, um elemneto que se move no lugar ou que altera o tamanho enquanto aparece  é considerado ser animado. Um elemento que surge instantaneamente sem transições não está a usar animação. Animação de movimento não inclui alterações de cor, de desfocagem ou opacidade.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-text-alternative">alternativa em texto</dfn></dt>
+		<dd>
+			<p><a href="#dfn-text" class="internalDFN" data-link-type="dfn">Texto</a> que está programaticamente associado com o <a href="#dfn-non-text-content" class="internalDFN" data-link-type="dfn">conteúdo não textual</a> ou que é referido a partir de texto que é programaticamente associado com conteúdo não textual. O texto programaticamente associado é o texto cuja localização pode ser programaticamente determinada a partir do conteúdo não textual.</p>
+			<p class="example">Uma imagem de um gráfico é descrita em texto no parágrafo que se encontra a seguir ao gráfico. A curta alternativa em texto para o gráfico indica que existe uma descrição a seguir.</p>
+			<div class="note" id="issue-container-generatedID-133"><div role="heading" class="note-title marker" id="h-note-133" aria-level="3"><span>Nota</span></div><p class="">Consulte o <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Compreendendo Alternativas em Texto</a> para mais informação.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-alternative-for-time-based-media">alternativa para media dinâmica ou contínua</dfn></dt>
+		<dd>
+			<p>documento que inclui descrições de texto corretamente sequenciados da informação dinâmica visual e auditiva, disponibilizando um meio para alcançar qualquer uma das partes da interação dinâmica</p>
+			<div class="note" id="issue-container-generatedID-47"><div role="heading" class="note-title marker" id="h-note-47" aria-level="3"><span>Nota</span></div><p class="">Um guião utilizado para criar o conteúdo media sincronizado satisfará esta definição apenas se foi criado para representar assertivamente a media sincronizada final após a edição.</p></div>
+		</dd>
+
+		<dt class="new"><dfn data-dfn-type="dfn" id="dfn-target">alvo</dfn></dt>
+		<dd class="new">
+			<p>região do ecrã que aceitará uma ação de apontador, como seja o caso de uma área interativa de uma compunente da interface de utilizador</p>
+			<div class="note" id="issue-container-generatedID-129"><div role="heading" class="note-title marker" id="h-note-129" aria-level="3"><span>Nota</span></div><p class="">Se dois ou mais mais alvos de toque se encontrarem sobrepostos, a área de sobreposição não deve ser incluída nas medições do tamanho do alvo, exceto quando os alvos sobrepostos executarem a mesma ação ou abram a mesma página.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-ambiguous-to-users-in-general">ambíguo para todos os utilizadores em geral</dfn></dt>
+		<dd>
+			<p>o propósito não pode ser determinado a partir da hiperligação e de toda a informação da página Web apresentada ao utilizador simultaneamente com a hiperligação (i.e., os leitores sem incapacidades não saberiam o que uma hiperligação faria até que a ativassem)</p>
+			<p class="example">Na frase seguinte, a palavra goiaba é uma hiperligação "Uma das exportações notáveis é a goiaba". A hiperligação pode levar a uma definição de goiaba, a um gráfico que liste a quantidade de goiaba exportada ou a uma fotografia de pessoas na colheita da goiaba. Até que a hiperligação seja ativada, todos os leitores estaram na dúvida e as pessoas com incapacidade não estaram em qualquer desvantagem.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-audio-only">apenas áudio</dfn></dt>
+		<dd>
+			<p>uma apresentação dinâmica ou contínua que contém apenas <a href="#dfn-audio" class="internalDFN" data-link-type="dfn">áudio</a> (sem <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> e sem interação)</p>	
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-video-only">apenas vídeo</dfn></dt>
+		<dd>
+			<p>uma apresentação dinâmica ou contínua que contém apenas <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> (sem <a href="#dfn-audio" class="internalDFN" data-link-type="dfn">áudio</a> nem interação)</p>
+		</dd>
+
+		<dt class="new"><dfn data-lt="pointer inputs|pointer input" data-dfn-type="dfn" id="dfn-pointer-inputs">apontador de entrada</dfn></dt>
+		<dd class="new">
+			<p>dispositivo de entrada, como seja um rato, uma caneta ou um contacto por toque, que pode alvejar uma coordenada específica (ou conjunto de coordenadas) de um ecrã.</p>
+			<p>Consulte também <a href="https://www.w3.org/TR/pointerevents/#dfn-pointer">Definição de ponteiro de Eventos de Ponteiro</a> [<cite><a class="bibref" href="#bib-pointerevents">pointerevents</a></cite>].</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-presentation">apresentação</dfn></dt>
+		<dd>
+			<p>representação do <a href="#dfn-content" class="internalDFN" data-link-type="dfn">conteudo</a> numa forma capaz de ser percecionada pelos utilizadores</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-ascii-art">arte ASCII</dfn></dt>
+		<dd>
+			<p>imagem criada através de uma disposição espacial de carateres ou glifos (tipicamente a partir dos 95 carateres imprimíveis definidos pelo ASCII)</p>			
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-audio">áudio</dfn></dt>
+		<dd>
+			<p>a tecnologia da reprodução do som</p>
+			<div class="note" id="issue-container-generatedID-51"><div role="heading" class="note-title marker" id="h-note-51" aria-level="3"><span>Nota</span></div><p class="">O áudio pode ser criado sinteticamente (incluindo sintetizador de fala), gravado do mundo real, ou ambos.</p></div>
+		</dd>
+
+		<dt><dfn data-lt="audio descriptions|audio description" data-dfn-type="dfn" id="dfn-audio-descriptions">áudiodescrição</dfn></dt>
+		<dd>
+			<p>narração adicionada à pista de áudio para descrever detalhes visuais importantes que não podem ser compreendidos a partir apenas da pista de áudio principal</p>
+			<div class="note" id="issue-container-generatedID-52"><div role="heading" class="note-title marker" id="h-note-52" aria-level="3"><span>Nota</span></div><p class="">A áudiodescrição do <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> disponibiliza informação sobre as ações, os personagens, as mudanças de cena, o texto no ecrã e outro conteúdo visual.</p></div>
+			<div class="note" id="issue-container-generatedID-53"><div role="heading" class="note-title marker" id="h-note-53" aria-level="3"><span>Nota</span></div><p class="">Na áudiodescrição padrão, a narração é adicionada durante as pausas existentes entre os diálogos. (Consulte também <a href="#dfn-extended-audio-description" class="internalDFN" data-link-type="dfn">áudiodescrição alargada</a>.)</p></div>
+			<div class="note" id="issue-container-generatedID-54"><div role="heading" class="note-title marker" id="h-note-54" aria-level="3"><span>Nota</span></div><p class="">Onde toda a informação <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> já estiver disponível no <a href="#dfn-audio" class="internalDFN" data-link-type="dfn">áudio</a> existente, não é necessário áudiodescrição adicional.</p></div>
+			<div class="note" id="issue-container-generatedID-55"><div role="heading" class="note-title marker" id="h-note-55" aria-level="3"><span>Nota</span></div><p class="">Também chamado de "videodescrição" e de "narração descritiva."</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-extended-audio-description">áudiodescrição alargada</dfn></dt>
+		<dd>
+			<p>áudiodescrição que é adicionada a uma apresentação audiovisual através da colocação do <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> em pausa, de modo a criar espaços que permitam adicionar descrições suplementares</p>
+			<div class="note" id="issue-container-generatedID-80"><div role="heading" class="note-title marker" id="h-note-80" aria-level="3"><span>Nota</span></div><p class="">Esta técnica é apenas utilizada quando o sentido do <a href="#dfn-video" class="internalDFN" data-link-type="dfn">video</a> seria perdido sem a <a href="#dfn-audio-descriptions" class="internalDFN" data-link-type="dfn">áudiodescrição</a> adicional e as pausas existentes entre os diálogos/narração são demasiado curtos.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-blinking">blinking (intermitente)</dfn></dt>
+		<dd>
+			<p>alternância entre dois estados visuais, de forma a chamar a atenção</p>
+			<div class="note" id="issue-container-generatedID-56"><div role="heading" class="note-title marker" id="h-note-56" aria-level="3"><span>Nota</span></div><p class="">Consulte também <a href="#dfn-flashes" class="internalDFN" data-link-type="dfn">flash</a>. É possível a algo que é suficientemente grande, de luz brilhante e suficientemente intermitente, na frequência correta, seja também classificado como um flash.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-blocks-of-text">blocos de texto</dfn></dt>
+		<dd>
+			<p>mais do que uma frase de texto</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-captcha">CAPTCHA</dfn></dt>
+		<dd>
+			<p>iniciais de "<em xml:lang="en" lang="en">Completely Automated Public Turing test to tell Computers and Humans Apart</em>" (teste Público de Turing Completamente Automatizado para Diferenciar os Computadores dos Humanos)</p>
+			<div class="note" id="issue-container-generatedID-57"><div role="heading" class="note-title marker" id="h-note-57" aria-level="3"><span>Nota</span></div><p class="">Os testes CAPTCHA implicam, frequentemente, solicitar ao utilizador que escreva em texto o que é mostrado numa imagem ou num ficheiro de áudio obscurecido.</p></div>
+			<div class="note" id="issue-container-generatedID-58"><div role="heading" class="note-title marker" id="h-note-58" aria-level="3"><span>Nota</span></div><p class="">Um teste de Turing é um qualquer sistema de testes concebido para distinguir um humano de um computador. É a sua designação deve-se ao famoso cientísta de computação Alan Turing. O termo foi cunhado pelos investigadores da Universidade de Carnegie Mellon.</p></div>
+		</dd>
+
+		<dt><dfn data-lt="user interface components|user interface component" data-dfn-type="dfn" id="dfn-user-interface-components">componente de interface de utilizador</dfn></dt>
+		<dd>
+			<p>uma parte do conteúdo que é percetível pelos utilizadores como um controlo único para uma função distinta</p>
+            <div class="note" id="issue-container-generatedID-135"><div role="heading" class="note-title marker" id="h-note-135" aria-level="3"><span>Nota</span></div><p class="">Múltiplas componentes da interface de utilizador podem ser implementadas como um elemento programático único. As componentes aqui não estão estritamente ligadas às técnicas de programação mas mais ao como o utilizador as perceciona enquanto controlos separados.</p></div>
+            <div class="note" id="issue-container-generatedID-136"><div role="heading" class="note-title marker" id="h-note-136" aria-level="3"><span>Nota</span></div><p class="">As componentes da interface de utilizador incluem elementos de formulário e hiperligações assim como componentes geradas através de  <em xml:lang="en" lang="en">scripts</em>.</p></div>
+            <div class="note" id="issue-container-generatedID-137"><div role="heading" class="note-title marker" id="h-note-137" aria-level="3"><span>Nota</span></div><p class="">O que aqui se entende por "componente" ou "componente de interface de utilizador" é também, por vezes, designado de "elemento da interface de utilizador".</p></div>
+            <p class="example">Uma applet tem um "controlo" que pode ser usado para se mover pelo conteúdo linha a linha, ou página a página, ou aceder de forma aleatória. Uma vez que cada um destes necessitaria de ter um nome e ser configurado independentemente, cada um deles seria uma "componente de interface de utilizador."</p>
+        </dd>
+
+        <dt><dfn data-dfn-type="dfn" id="dfn-legal-commitments">compromissos legais</dfn></dt>
+		<dd>
+			<p>transações em que o indivíduo incorre num compromisso ou benefício juridicamente vinculativo</p>
+			<p class="example">Uma certidão de casamento, uma transação bolsista (financeira e jurídica), um testamento, um empréstimo, uma adoção, um alistamento no exército, um qualquer tipo de contrato, etc.</p>
+		</dd>
+
+		<dt><dfn data-lt="conform|conformance" data-dfn-type="dfn" id="dfn-conform">conformidade</dfn></dt>
+		<dd>
+			<p>satisfazer todos os requisitos de um determinado padrão, diretriz ou especificação</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-set-of-web-pages">conjunto de páginas Web</dfn></dt>
+		<dd>
+			<p>coleção de <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">páginas web</a> que partilham um propósito comum e que são criados pelo mesmo autor, grupo ou organização</p>
+			<p class="example">Exemplos incluem uma publicação, a qual está dividida ao longo de múltiplas páginas Web, em que cada página contém um capítulo ou outra secção relevante do trabalho. A publicação é logicamente uma única unidade contígua, e contém funcionalidades de navegação que permitem aceder integralmente ao conjunto de páginas.</p>
+			<div class="note" id="issue-container-generatedID-127"><div role="heading" class="note-title marker" id="h-note-127" aria-level="3"><span>Nota</span></div><p class="">Para diferentes versões de idioma seriam considerados diferentes conjuntos de páginas Web.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-content">conteúdo</dfn> (conteúdo Web)</dt>
+		<dd>
+			<p>informação e experiência sensorial a ser comunicada ao utilizador por meio de um <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a>, incluindo código ou marcação que defina a <a href="#dfn-structure" class="internalDFN" data-link-type="dfn">estrutura</a>, a <a href="#dfn-presentation" class="internalDFN" data-link-type="dfn">apresentação</a> e as interações do conteúdo</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-non-text-content">conteúdo não textual</dfn></dt>
+		<dd>
+			<p>qualquer conteúdo que não é uma sequência de carateres que pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinado</a> ou sempre que a sequência não expresse algo em <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua humana</a></p>
+			<div class="note" id="issue-container-generatedID-110"><div role="heading" class="note-title marker" id="h-note-110" aria-level="3"><span>Nota</span></div><p class="">Isto inclui <a href="#dfn-ascii-art" class="internalDFN" data-link-type="dfn">Arte ASCII</a> (a qual é um padrão de carateres), emoticons, leetspeak (o qual utiliza substituição de carateres), e imagens representando texto</p></div>
+		</dd>
+
+		<dt><dfn data-lt="supplementary content|supplemental content" data-dfn-type="dfn" id="dfn-supplementary-content">conteúdo suplementar</dfn></dt>
+		<dd>
+			<p><a href="#dfn-content" class="internalDFN" data-link-type="dfn">conteúdo</a> adicioal que ilustra ou clarifica o conteúdo principal</p>
+			<p class="example">Uma versão áudio de uma <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a>.</p>
+			<p class="example">Uma ilustração de um <a href="#dfn-processes" class="internalDFN" data-link-type="dfn">processo</a> complexo.</p>
+			<p class="example">Um parágrafo que sumariza os resultados e as recomendações principais de um estudo de investigação.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-programmatically-determined-link-context">contexto da hiperligação programaticamente determinado</dfn></dt>
+		<dd>
+			<p>informação adicional que pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinada</a> a partir de <a href="#dfn-relationships" class="internalDFN" data-link-type="dfn">relacionamentos</a> com a hiperligação, combinada com o texto da hiperligação e apresentada aos utilizadores de diferentes maneiras</p>
+			<p class="example">Em HTML, a informação que é programaticamente determinável a partir de uma hiperligação em Inglês inclui texto que se encontra no mesmo parágrafo, lista, ou célula da tabela onde a hiperligação se encontra ou numa célula de cabeçalho de tabela associada à célula da tabela onde a hiperligação se encontra.</p>
+			<div class="note" id="issue-container-generatedID-117"><div role="heading" class="note-title marker" id="h-note-117" aria-level="3"><span>Nota</span></div><p class="">Uma vez que os leitores de ecrã interpretam a pontuação, eles fornecem também a frase como contexto da hiperligação em que o foco se encontra.</p></div>				
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-user-controllable">controlável pelo utilizador</dfn></dt>
+		<dd>
+			<p>dados que são intencionalmente para serem acedidos pelos utilizadores</p>
+			<div class="note" id="issue-container-generatedID-134"><div role="heading" class="note-title marker" id="h-note-134" aria-level="3"><span>Nota</span></div><p class="">Isto não se refere a coisas como arquivo de registos de Internet ou dados de monitorização de motores de pesquisa.</p></div>
+			<p class="example">Os campos nome e morada para uma conta do utilizador.</p>
+		</dd>
+
+		<dt class="new"><dfn data-dfn-type="dfn" id="dfn-down-event">down-event</dfn></dt>
+		<dd class="new">
+			<p>evento de plataforma que ocorre quando o acionador por estimulo do ponteiro é premido</p>
+			<p>O down-event pode ter nomes diferentes em plataformas diferentes, tais como "touchstart" ou "mousedown".</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-live">em direto</dfn></dt>
+		<dd>
+			<p>informação obtida a partir de um evento real e transmitida ao recetor em tempo real, sem outro atraso que não seja o da transmissão.</p>
+			<div class="note" id="issue-container-generatedID-102"><div role="heading" class="note-title marker" id="h-note-102" aria-level="3"><span>Nota</span></div><p class="">O atraso de transmissão consiste num pequeno atraso (normalmente automatizado) utilizado, por exemplo, para dar tempo ao transmissor de colocar em fila de espera ou censurar a transmissão do áudio (ou vídeo), mas não o tempo suficiente para permitir uma edição significativa.</p></div>
+			<div class="note" id="issue-container-generatedID-103"><div role="heading" class="note-title marker" id="h-note-103" aria-level="3"><span>Nota</span></div><p class="">Se a informação for totalmente gerada por computador, então não é informação em direto.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-emergency">emergência</dfn></dt>
+		<dd>
+			<p>uma situação ou ocorrência súbita, inesperada que obriga a ação imediata para preservar a saúde, a segurança ou a propriedade</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-input-error">erro de entrada</dfn></dt>
+		<dd>
+			<p>informação fornecida pelo utilizador que não foi aceite</p>
+			<div class="note" id="issue-container-generatedID-91"><div role="heading" class="note-title marker" id="h-note-91" aria-level="3"><span>Nota</span></div>
+			<div class="">
+				<p>Isto inclui:</p>
+				<ol>
+					<li>Informação que é obrigatória introduzir na <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a> mas que foi omitida pelo utilizador</li>
+					<li>Informação que é fornecida pelo utilizador mas cujos dados estão fora do formato ou dos valores admissíveis</li>
+				</ol>
+			</div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-essential">essencial</dfn></dt>
+		<dd>
+			<p>se retirado, alteraria profundamente a informação ou a funcionalidade do conteúdo, <strong>e</strong> a informação e a funcionalidade não podem ser alcançadas de outras maneiras que estejam conformes</p>
+		</dd>
+
+		<dt class="new"><dfn data-lt="states|state" data-dfn-type="dfn" id="dfn-states">estado</dfn></dt>
+		<dd class="new">
+			<p>propriedade dinâmica que expressa caraterísticas de uma componente de interface de utilizador que deve alterar em resposta à ação do utilizador ou processos automatizados</p>
+			<p>Os Estados não afetam a natureza do componente, mas representa dados associados com a componente ou as possibilidades de interação do utilizador. Os exemplos incluem foco, sobre o, seleção, pressionar, verificar, visitado/não visitado e o expandir/compactar.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-structure">estrutura</dfn></dt>
+		<dd>
+			<ol>
+            	<li>A forma como as partes de uma <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a> estão organizadas relativamente umas às outras; e</li>
+            	<li>A forma como uma coleção de <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">páginas Web</a> está organizada</li>
+            </ol>
+        </dd>
+
+        <dt><dfn data-lt="labels|label" data-dfn-type="dfn" id="dfn-labels">etiqueta</dfn></dt>
+		<dd>
+			<p><a href="#dfn-text" class="internalDFN" data-link-type="dfn">texto</a> ou outra componente com um <a href="#dfn-text-alternative" class="internalDFN" data-link-type="dfn">alternativo em texto</a> que é apresentado a um utilizador para identificar uma componentes do <a href="#dfn-content" class="internalDFN" data-link-type="dfn">conteúdo</a> Web</p>
+			<div class="note" id="issue-container-generatedID-95"><div role="heading" class="note-title marker" id="h-note-95" aria-level="3"><span>Nota</span></div><p class="">Uma etiqueta é apresentada a todos os utilizadores, enquanto que o <a href="#dfn-name" class="internalDFN" data-link-type="dfn">nome</a> pode ser escondido e exposto apenas à tecnologia de apoio. Em muitos (mas não em todos) casos o nome e a etiqueta são a mesma.</p></div>
+			<div class="note" id="issue-container-generatedID-96"><div role="heading" class="note-title marker" id="h-note-96" aria-level="3"><span>Nota</span></div><p class="">O termo etiqueta não está limitado ao elemento <code>label</code> da linguagem HTML.</p></div>
+		</dd>
+
+		<dt><dfn data-lt="real-time events|real-time event" data-dfn-type="dfn" id="dfn-real-time-events">evento em tempo real</dfn></dt>
+		<dd>
+			<p>evento que a) ocorre simultaneamente à sua visualização e b) não é completamente gerado pelo conteúdo</p>
+			<p class="example">Uma <em xml:lang="en" lang="en">Webcast</em> (transmissão Web) de um espetáculo em direto (ocorre simultaneamente à sua visualização e não é prégravado).</p>
+			<p class="example">Um leilão online com as pessoas a licitar (ocorre simultaneamente à sua visualização).</p>
+			<p class="example">Humanos interagindo em direto num mundo virtual utilizando avatares (não é completamente gerado pelo conteúdo e ocorre simultaneamente à sua visualização).</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-specific-sensory-experience">experiência sensorial específica</dfn></dt>
+		<dd>
+			<p>uma experiência sensorial que não é puramente decorativa e que não transmite principalmente informação importante ou desempenha uma função</p>
+			<p class="example">Exemplos incluem tocar um solo de flauta, trabalhos com artes visuais, etc.</p>
+		</dd>
+
+		<dt><dfn data-lt="idioms|idiom" data-dfn-type="dfn" id="dfn-idioms">expressões idiomáticas</dfn></dt>
+		<dd>			
+			<p>expressão cujo significado não pode ser deduzido a partir do significado de palavras isoladas e em que as palavras específicas não podem ser alteradas sem que esta perca o seu sentido</p>			
+			<div class="note" id="issue-container-generatedID-88"><div role="heading" class="note-title marker" id="h-note-88" aria-level="3"><span>Nota</span></div><p class="">as expressões idiomáticas não podem ser literalmente traduzidas, sem perder o seu sentido (cultural ou linguistico).</p></div>
+			<p class="example">Em inglês, "<em xml:lang="en" lang="en">spilling the beans</em>" significa "revelar um segredo". Contudo, "<em xml:lang="en" lang="en">knocking over the beans</em>" (derrubar os feijões) ou "<em lang="en" xml:lang="en">spilling the vegetables</em>" (deixar cair os feijões) não tem o mesmo significado.</p>
+			<p class="example">Em japonês, a expressão "<span lang="ja">さじを投げる</span>" traduz-se literalmente como "<em xml:lang="en" lang="en">he throws a spoon</em>" (ele atira uma colher), mas, na verdade significa que não há mais nada que ele possa fazer e que, finalmente, ele vai desistir.</p>
+			<p class="example">Em holandês, "<span lang="nl">Hij ging met de kippen op stok</span>" traduz-se literalmente como "<em xml:lang="en" lang="en">He went to roost with the chickens</em>" ("Deitou-se com as galinhas"), mas na verdade significa que ele foi cedo para a cama.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-relied-upon">fiáveis</dfn> (tecnologias que são)</dt>
+		<dd>
+			<p>o conteúdo não estaria <a href="#dfn-conform" class="internalDFN" data-link-type="dfn">conforme</a> se essa <a href="#dfn-technologies" class="internalDFN" data-link-type="dfn">tecnologia</a> fosse desligada ou se não fosse suportada</p>
+		</dd>
+
+		<dt><dfn data-lt="flashes|flash" data-dfn-type="dfn" id="dfn-flashes">flash</dfn></dt>
+		<dd>
+			<p>um par de alterações opostas na <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn">luminescência relativa</a> que pode causar convulsões em algumas pessoas caso a exposição seja prolongada e ocorra num intervalo de frequência preciso</p>
+			<div class="note" id="issue-container-generatedID-81"><div role="heading" class="note-title marker" id="h-note-81" aria-level="3"><span>Note</span></div><p class="">Consulte <a href="#dfn-general-flash-and-red-flash-thresholds" class="internalDFN" data-link-type="dfn">limiares de flash geral e flash vermelho</a> para informação sobre tipos de flash que não são permitidos.</p></div>
+			<div class="note" id="issue-container-generatedID-82"><div role="heading" class="note-title marker" id="h-note-82" aria-level="3"><span>Nota</span></div><p class="">Consulte também <a href="#dfn-blinking" class="internalDFN" data-link-type="dfn">em modo intermitente (blinking)</a>.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-functionality">funcionalidade</dfn></dt>
+		<dd>
+			<p><a href="#dfn-processes" class="internalDFN" data-link-type="dfn">processos</a> e resultados alcançáveis através da ação do utilizador</p>			
+		</dd>
+
+		<dt><dfn data-lt="images of text|image of text" data-dfn-type="dfn" id="dfn-images-of-text">imagem de texto</dfn></dt>
+		<dd>			
+			<p>texto que foi convertido na forma não textual (e.g., uma imagem) para se obter um determinado efeito visual</p>
+			<div class="note" id="issue-container-generatedID-89"><div role="heading" class="note-title marker" id="h-note-89" aria-level="3"><span>Nota</span></div><p class="">Isto não inclui <a href="#dfn-text" class="internalDFN" data-link-type="dfn">texto</a> que é parte de uma imagem que contém outro conteúdo visual significante.</p></div>
+			<p class="example">O nome de uma pessoa numa etiqueta de uma fotografia.</p>
+		</dd>
+
+		<dt class="new"><dfn data-dfn-type="dfn" id="dfn-user-inactivity">inatividade do utilizador</dfn></dt>
+		<dd class="new">
+			<p>qualquer periodo de tempo contínuo em que não ocorrem ações por parte do utilizador</p>
+			<p>O método de rastreamento será determinado pelo sítio Web ou aplicação.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-informative">informativo</dfn></dt>
+		<dd>
+			<p>com propósito informativo e que não é obrigatório para efeitos de conformidade</p>
+			<div class="note" id="issue-container-generatedID-90"><div role="heading" class="note-title marker" id="h-note-90" aria-level="3"><span>Nota</span></div><p class="">O conteúdo obrigatório para efeitos de <a href="#dfn-conform" class="internalDFN" data-link-type="dfn">conformidade</a> encontra-se referenciado como sendo "<a href="#dfn-normative" class="internalDFN" data-link-type="dfn">normativo</a>."</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-keyboard-interface">interface de teclado</dfn></dt>
+		<dd>
+			<p>interface utilizada pelo software para obter entradas por digitação</p>
+			<div class="note" id="issue-container-generatedID-92"><div role="heading" class="note-title marker" id="h-note-92" aria-level="3"><span>Nota</span></div><p class="">Uma interface de teclado permite aos utilizadores digitar entradas no programa mesmo que a tecnologia nativa não disponha de teclado.</p></div>
+			<p class="example">Um PDA com ecrã sensível ao toque tem uma interface de teclado incorporada no seu sistema operativo, assim como uma conexão para teclados externos. As aplicações do PDA podem usar a interface para obter inserção de dados por teclado quer através de um teclado externo quer através de aplicações que simulam saídas de teclado, tais como sistemas de interpretação de carateres manuscritos ou aplicações de reconhecimento de voz com a funcionalidade de "emulação de teclado".</p>
+			<div class="note" id="issue-container-generatedID-94"><div role="heading" class="note-title marker" id="h-note-94" aria-level="3"><span>Nota</span></div><p class="">A utilização de uma aplicação (ou partes da aplicação) através de emuladores de rato pelo teclado, tais como o MouseKeys (teclas do rato), não a qualifica como sendo uma operação por interface de teclado porque a operação do programa é, neste caso, feita pela sua interface de dispositivo apontador e não pela sua interface de teclado.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-sign-language-interpretation">interpretação em língua gestual</dfn></dt>
+		<dd>
+			<p>tradução de uma língua, geralmente uma língua falada, numa <a href="#dfn-sign-language" class="internalDFN" data-link-type="dfn">língua gestual</a></p>
+			<div class="note" id="issue-container-generatedID-128"><div role="heading" class="note-title marker" id="h-note-128" aria-level="3"><span>Nota</span></div><p class="">As línguas gestuais genuínas são línguas independentes que não estão relacionadas com a(s) lingua(s) faladas do mesmo país ou região.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-jargon">jargão</dfn></dt>
+		<dd>
+			<p>palavras utilizadas pelas pessoas de uma forma particular num domínio específico</p>
+			<p class="example">Por exemplo a palavra <em xml:lang="en" lang="en">StickyKeys</em> (teclas presas) é jargão do campo da acessibilidade/tecnologia de apoio.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-captions">legendagem</dfn></dt>
+		<dd>
+			<p>alternativa visual e/ou <a href="#dfn-text-alternative" class="internalDFN" data-link-type="dfn">alaternativa em texto</a> sincronizado para informação áudio, contendo fala ou não, necessária para compreender o conteúdo media</p>
+			<div class="note" id="issue-container-generatedID-59"><div role="heading" class="note-title marker" id="h-note-59" aria-level="3"><span>Nota</span></div><p class="">A legendagem (captions) é similar à legendagem  dos diálogos (subtitles) exceto que a legendagem (captions) transmite não apenas o conteúdo dos diálogos falados mas também os equivalentes para a informação de áudio não verbal necessários para compreender o conteúdo do programa, incluindo efeitos sonoros, música, gargalhadas e identificação e localização do interlocutor.</p></div>
+			<div class="note" id="issue-container-generatedID-60"><div role="heading" class="note-title marker" id="h-note-60" aria-level="3"><span>Nota</span></div><p class="">A legendagem fechada é um equivalente que pode ser ligado ou desligado em alguns leitores de media.</p></div>
+			<div class="note" id="issue-container-generatedID-61"><div role="heading" class="note-title marker" id="h-note-61" aria-level="3"><span>Nota</span></div><p class="">A legendagem aberta corresponde à legendagem que não pode ser desligada. Por exemplo, a legendagem é um equivalente visual de <a href="#dfn-images-of-text" class="internalDFN" data-link-type="dfn">imagens de texto</a> inseridas no <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a>.</p></div>
+			<div class="note" id="issue-container-generatedID-62"><div role="heading" class="note-title marker" id="h-note-62" aria-level="3"><span>Nota</span></div><p class="">A legendagem não deve obscurecer ou obstruir informação relevante no vídeo.</p></div>
+			<div class="note" id="issue-container-generatedID-63"><div role="heading" class="note-title marker" id="h-note-63" aria-level="3"><span>Nota</span></div><p class="">Em alguns países, a legendagem (captions) é designada de legendagem (subtitles).</p></div>
+			<div class="note" id="issue-container-generatedID-64"><div role="heading" class="note-title marker" id="h-note-64" aria-level="3"><span>Nota</span></div><p class="">A <a href="#dfn-audio-descriptions" class="internalDFN" data-link-type="dfn">áudiodescrição</a> pode ser, mas não precisa de o ser, legendada uma vez que ela corresponde a descrições de informação que já está presente visualmente.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-general-flash-and-red-flash-thresholds">limiares de flash geral e flash vermelho</dfn></dt>
+		<dd>
+			<p>um <a href="#dfn-flashes" class="internalDFN" data-link-type="dfn">flash</a> ou alteração rápida de sequência de imagens encontra-se abaixo do limiar (i.e., conteúdo <strong>passa</strong>) se qualquer um dos seguintes é verdadeiro:</p>
+			<ol>
+				<li>não existem mais de três <strong>flashes gerais</strong> e / ou não mais de três <strong>flashes vermelhos</strong> em cada segundo; ou</li>
+				<li>a área combinada de flashes simultâneos não representa mais do que um total de 0.006 esterradianos dentro de cada campo visual de 10 graus do ecrã (25% de cada campo visual de 10 graus do ecrã) a uma distância típica de visualização</li>
+			</ol>
+			<p>onde:</p>
+			<ul>
+				<li>Um <strong>flash geral</strong> é definido como um par de alterações opostas na <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn">luminescência relativa</a> de 10% ou superior da luminescência relativa máxima em que a luminescência relativa da imagem mais escura está abaixo dos 0.80; e em que "o par de alterações opostas" aumenta seguido por um decréscimo, ou diminui seguido por um acréscimo, e</li>				
+				<li>Um <strong>flash vermelho</strong> é definido como um qualquer par de transições opostas envolvendo um vermelho saturado</li>
+			</ul>
+			<p><em>Exceção:</em> Os flashes que resultam de um padrão como o ruído branco, fino, balanceado ou de um padrão semelhante a um tabuleiro de xadrez que alterna, com "quadrados" mais pequenos que 0.1 graus de lado (de um campo visual à distância típica de visualização) não viola os limiares.</p>
+			<div class="note" id="issue-container-generatedID-83"><div role="heading" class="note-title marker" id="h-note-83" aria-level="3"><span>Nota</span></div><p class="">Para a generalidade do software ou conteúdo Web, a utilização de um retângulo com 341 x 256 píxeis posicionado em qualquer área de visualização do ecrã, quando o conteúdo é visto em 1024 x 768 píxeis, será bem visualizado num campo de visão de 10 graus num ecrã de tamanho padrão e visionado a uma distância padrão (e.g., ecrã de 15-17 polegadas a 22-26 polegadas). (Os ecrãs com resoluções altas mostram o mesmo conteúdo que cabe nos pequenos, por isso são as resoluções mais baixas que são utilizadas para definir os limiares.)</p></div>
+			<div class="note" id="issue-container-generatedID-84"><div role="heading" class="note-title marker" id="h-note-84" aria-level="3"><span>Nota</span></div><p class="">Uma transição é a alteração na luminescência relativa (ou luminescência relativa/cor para flash vermelho) entre altos e baixos adjacentes num plano de medida de luminescência relativa (ou luminescência relativa/cor para flash vermelho) em comparação com o tempo. Um flash consiste em duas transições contrárias.</p></div>
+			<div class="note" id="issue-container-generatedID-85"><div role="heading" class="note-title marker" id="h-note-85" aria-level="3"><span>Nota</span></div><p class="">A definição atual de trabalho no campo para <strong>"um par de transições opostas envolvendo um vermelho saturado"</strong> é onde, para cada um ou para ambos os estados envolvidos em cada transição, R/(R+ G + B) >= 0.8, e a alteração do valor de (R-G-B)x320 é > 20 (valores negativos de (R-G-B)x320 são ajustados para zero) para ambas as transições. R, G, B valores no intervalo de 0-1 tal como especificado na definição de “luminescência relativa”. [<cite><a class="bibref" href="#bib-HARDING-BINNIE">HARDING-BINNIE</a></cite>]</p></div>			
+			<div class="note" id="issue-container-generatedID-86"><div role="heading" class="note-title marker" id="h-note-86" aria-level="3"><span>Nota</span></div><p class="">Estão disponíveis ferramentas que irão executar análises a partir de capturas de vídeo do ecrã. Todavia, não é necessário uma ferramenta para avaliar esta condição se os flashes forem inferiores ou iguais a 3 flashes em qualquer um dos segundos. O conteúdo é conforme automaticamente (consulte #1 e #2 acima).</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-sign-language">língua gestual</dfn></dt>
+		<dd>
+			<p>uma língua que utiliza combinações de movimentos de mãos e braços, expressões faciais ou posições corporais para transmitir significados</p>
+		</dd>
+
+		<dt><dfn data-lt="human language(s)|human language" data-dfn-type="dfn" id="dfn-human-language-s">língua/linguagem humana (idioma)</dfn></dt>
+		<dd>
+			<p>língua que é falada, escrita ou gestual (através de meios visuais ou táteis) para comunicar com humanos</p>
+			<div class="note" id="issue-container-generatedID-87"><div role="heading" class="note-title marker" id="h-note-87" aria-level="3"><span>Nota</span></div><p class="">Consulte também <a href="#dfn-sign-language" class="internalDFN" data-link-type="dfn">língua gestual</a>.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-relative-luminance">luminescência relativa</dfn></dt>
+		<dd>
+			<p>o brilho relativo de um qualquer ponto num espetro de cor, normalizado para 0 para o preto mais escuro e 1 para o branco mais claro</p>
+			<div class="note" id="issue-container-generatedID-120"><div role="heading" class="note-title marker" id="h-note-120" aria-level="3"><span>Nota</span></div><div class="">
+			<p>Para um espetro de cor sRGB, a luminescência relativa de uma cor é definida como L = 0.2126 * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> em que <strong>R</strong>, <strong>G</strong> e <strong>B</strong> são definidos como:</p>
+			<ul>
+				<li>Se RsRGB &lt;= 0.03928 então <strong>R</strong> = RsRGB/12.92 se não <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4</li>
+				<li>Se GsRGB &lt;= 0.03928 então <strong>G</strong> = GsRGB/12.92 se não <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4</li>
+				<li>Se BsRGB &lt;= 0.03928 então <strong>B</strong> = BsRGB/12.92 se não <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4</li>
+			</ul>
+			<p>e RsRGB, GsRGB, e BsRGB são definidos como:</p>
+			<ul>
+				<li>RsRGB = R8bit/255</li>
+				<li>GsRGB = G8bit/255</li>
+				<li>BsRGB = B8bit/255</li>
+			</ul>
+			<p>O caráter "^" é o operador de exponenciação. (Fórmula retirada de [<cite><a class="bibref" href="#bib-sRGB">sRGB</a></cite>] e [<cite><a class="bibref" href="#bib-IEC-4WD">IEC-4WD</a></cite>]).</p>
+			</div>
+			</div>
+			<div class="note" id="issue-container-generatedID-121"><div role="heading" class="note-title marker" id="h-note-121" aria-level="3"><span>Nota</span></div><p class="">Praticamente todos os sistemas utilizados hoje em dia para visualizar conteúdo Web assume a codificação sRGB. A não ser que se saiba que será usado um outro espetro de cor para processar e mostrar conteúdo, os autores devem efetuar as avaliações tendo por base o espetro de cor sRGB. Se usar outro espetro de cor, consulte <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Compreendendo o Critério de Sucesso 1.4.3</a>.</p></div>
+			<div class="note" id="issue-container-generatedID-122"><div role="heading" class="note-title marker" id="h-note-122" aria-level="3"><span>Nota</span></div><p class="">Se ocorrer um pontilhado após a apresentação, então será usado o valor da cor na sua origem. Para cores que estão pontilhadas na sua origem, os valores médios das cores que estão pontilhadas devem ser usadas (média de R, média de G, e média de B).</p></div>
+			<div class="note" id="issue-container-generatedID-123"><div role="heading" class="note-title marker" id="h-note-123" aria-level="3"><span>Nota</span></div><p class="">Existem ferramentas que fazem automaticamente os cálculos quando se testa contraste e flash.</p></div>
+			<div class="note" id="issue-container-generatedID-124"><div role="heading" class="note-title marker" id="h-note-124" aria-level="3"><span>Nota</span></div><p class="">Está disponível uma <a href="relative-luminance.xml">versão em MathML da definição de luminescência relativa</a>.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-mechanism">mecanismo</dfn></dt>
+		<dd>
+			<p><a href="#dfn-processes" class="internalDFN" data-link-type="dfn">processo</a> ou técnica para alcançar um resultado</p>
+			<div class="note" id="issue-container-generatedID-105"><div role="heading" class="note-title marker" id="h-note-105" aria-level="3"><span>Nota</span></div><p class="">O mecanismo pode ser explicitamente fornecido no conteúdo, ou pode ser <a href="#dfn-relied-upon" class="internalDFN" data-link-type="dfn">fiável</a> a sua disponibilização quer às plataformas quer aos <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agentes de utilizador</a>, nos quais se incluem as <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn">tecnologias de apoio</a>.</p></div>
+			<div class="note" id="issue-container-generatedID-106"><div role="heading" class="note-title marker" id="h-note-106" aria-level="3"><span>Nota</span></div><p class="">O mecanismo necessita de satisfazer todos os critérios de sucesso correspondentes ao nível de conformidade reivindicado.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-synchronized-media">media sincronizada</dfn></dt>
+		<dd>
+			<p><a href="#dfn-audio" class="internalDFN" data-link-type="dfn">áudio</a> ou <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> sincronizados com outro formato para apresentar informação e/ou com componentes interactivas dinâmicas ou contínuas, a menos que a media seja uma <a href="#dfn-media-alternative-for-text" class="internalDFN" data-link-type="dfn">alternativa em media para texto</a> que esteja claramente etiquetado como tal</p>
+		</dd>
+
+		<dt class="new"><dfn data-lt="status messages|status message" data-dfn-type="dfn" id="dfn-status-messages">mensagem de <em xml:lang="en" lang="en">status</em></dfn></dt>
+		<dd class="new">
+			<p>alteração no conteúdo que não corresponde a uma <a href="#dfn-change-of-context" class="internalDFN" data-link-type="dfn">alteração de contexto</a>, e que disponibiliza informação ao utilizador sobre o sucesso ou resultados de uma ação, sobre o estado de espera de uma aplicação, sobre o progresso de um processo ou sobre a existência de erros</p>
+		</dd>
+
+		<dt><dfn data-lt="primary education|primary education level" data-dfn-type="dfn" id="dfn-primary-education">nível de educação primário</dfn></dt>
+		<dd>
+			<p>período de tempo de seis anos que se inicia entre os cinco e os sete anos de idade, possivelmente sem qualquer educação formal prévia</p>
+			<div class="note" id="issue-container-generatedID-114"><div role="heading" class="note-title marker" id="h-note-114" aria-level="3"><span>Nota</span></div><p class="">Esta definição baseia-se no <em xml:lang="en" lang="en">International Standard Classification of Education</em></p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-lower-secondary-education-level">nível de educação secundário inferior</dfn></dt>
+		<dd>
+			<p>o período de dois ou três anos de escolaridade que tem início após a conclusão dos primeiros seis anos de escolaridade e que termina nove anos após o início da <a href="#dfn-primary-education" class="internalDFN" data-link-type="dfn">educação primária</a></p>
+			<div class="note" id="issue-container-generatedID-104"><div role="heading" class="note-title marker" id="h-note-104" aria-level="3"><span>Nota</span></div><p class="">Esta definição baseia-se na <em xml:lang="en" lang="en">International Standard Classification of Education</em> [<cite><a class="bibref" href="#bib-UNESCO">UNESCO</a></cite>].</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-name">nome</dfn></dt>
+		<dd>
+			<p>texto a partir do qual o software pode identificar uma componente do conteúdo Web e disponibilizá-la ao utilizador</p>
+			<div class="note" id="issue-container-generatedID-108"><div role="heading" class="note-title marker" id="h-note-108" aria-level="3"><span>Nota</span></div><p class="">O nome pode estar escondido e ser exposto apenas à tecnologia de apoio, enquanto que uma <a href="#dfn-labels" class="internalDFN" data-link-type="dfn">etiqueta</a> é apresentada a todos os utilizadores. Em muitos (mas não todos) casos, a etiqueta e o nome são o mesmo.</p></div>
+			<div class="note" id="issue-container-generatedID-109"><div role="heading" class="note-title marker" id="h-note-109" aria-level="3"><span>Nota</span></div><p class="">Isto não está relacionado com o atributo <code>name</code> da linguagem HTML.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-normative">normativo</dfn></dt>
+		<dd>
+			<p>obrigatório para conformidade</p>
+			<div class="note" id="issue-container-generatedID-111"><div role="heading" class="note-title marker" id="h-note-111" aria-level="3"><span>Nota</span></div><p class="">Uma forma, da variedade de formas bem definidas, de apresentação deve estar em conformidade para com este documento.</p></div>
+			<div class="note" id="issue-container-generatedID-112"><div role="heading" class="note-title marker" id="h-note-112" aria-level="3"><span>Nota</span></div><p class="">O conteúdo identificado como "<a href="#dfn-informative" class="internalDFN" data-link-type="dfn">informativo</a>" ou "não normativo" nunca é considerado obrigatório para efeitos de <a href="#dfn-conform" class="internalDFN" data-link-type="dfn">conformidade</a>.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-on-a-full-screen-window">numa janela em ecrã completo</dfn></dt>
+		<dd>
+			<p>no ecrã de tamanho mais comum de um desktop/laptop com a viewport (janela de visualização) maximizada</p>
+			<div class="note" id="issue-container-generatedID-113"><div role="heading" class="note-title marker" id="h-note-113" aria-level="3"><span>Nota</span></div><p class="">Uma vez que as pessoas mantêm geralmente os seus computadores por vários anos, quando efetuar esta avaliação, é melhor não usar por referência as resoluções de ecrã dos laptops/desktops recentemente lançados mas considerar as resoluções dos ecrãs dos desktop/laptop mais usados nos últimos anos.</p></div>
+		</dd>
+
+		<dt><dfn data-lt="web page(s)|web pages|web page" data-dfn-type="dfn" id="dfn-web-page-s">página Web</dfn></dt>
+		<dd>
+			<p>um recurso não incorporado, obtido a partir de um único URI utilizando HTTP, mais quaisquer outros recursos usados na "renderização" (interpretação) ou pretendidos serem "renderizados" conjuntamente com ele a partir de um <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a></p>
+			<div class="note" id="issue-container-generatedID-141"><div role="heading" class="note-title marker" id="h-note-141" aria-level="3"><span>Nota</span></div><p class="">Apesar de quaisquer "outros recursos" precisarem de ser "renderizados" conjuntamente com o recurso principal, eles não precisam de ser obrigatoriamente "renderizados" simultaneamente uns com os outros.</p></div>
+			<div class="note" id="issue-container-generatedID-142">
+				<div role="heading" class="note-title marker" id="h-note-142" aria-level="3"><span>Nota</span></div>
+				<p class="">Para o propósito de conformidade com estas diretrizes, um recurso precisa ser "não incorporado" dentro do âmbito da conformidade a ser considerado na página Web.</p>
+			</div>
+			<p class="example">Um recurso Web inclui todas as imagens e media incorporadas.</p>
+			<p class="example">Um programa de correio eletrónico na Web, contruído usando <em xml:lang="en" lang="en">Asynchronous JavaScript and XML (AJAX)</em>. O programa funciona integralmente em http://example.com/mail, mas inclui uma caixa de entrada, uma área de contactos e um calendário. As hiperligações ou botões são fornecidos de tal forma que mostram a caixa de entrada, os contactos e o calendário mas não alteram a URI da página como um todo.</p>
+			<p class="example">Um portal personalizável em que os utilizadores podem escolher o conteúdo a visualizar a partir de um conjunto de diferentes módulos de conteúdo.</p>
+			<p class="example">Ao inserir "http://shopping.example.com/" no seu navegador Web, entra num ambiente de loja interativa do tipo filme em que se movimenta visualmente por toda a loja agarrando produtos das prateleiras e soltando-os num carrinho de compras à sua frente. Ao clicar em cima dos produtos surge uma demonstração numa folha a flutuar ao lado do mesmo. Isto deve ser considerado uma única página do sítio Web ou apenas a página de um sítio Web.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-role">papel</dfn></dt>
+		<dd>
+			<p>texto ou número através do qual o software pode identificar a função de um componente numa página Web</p>
+			<p class="example">Um número que indica onde é que uma imagem desempenha a função de uma hiperligação, botão ou caixa de verificação.</p>
+		</dd>
+
+		<dt><dfn data-lt="pause|paused" data-dfn-type="dfn" id="dfn-pause">pausado</dfn></dt>
+		<dd>
+			<p>parado a pedido do utilizador e que não prossegue até que seja solicitado pelo utilizador</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-visually-customized">personalizado visualmente</dfn></dt>
+		<dd>
+			<p>o tipo de letra, o tamanho, a cor e o plano de fundo podem ser configurados</p>
+		</dd>
+
+		<dt class="new"><dfn data-lt="css pixels|css pixel" data-dfn-type="dfn" id="dfn-css-pixels">píxel CSS</dfn></dt>
+		<dd class="new">
+			<p>ângulo visual de cerca de 0.0213 graus</p>
+			
+			<p>Um píxel CSS é a unidade de medida canónica para todas as dimensões e medidas em CSS. Esta unidade é independente da densidade e distinta dos píxeis de <em xml:lang="en" lang="en">hardware</em> atuais presentes num ecrã. Os agentes de utilizador e os sistemas operativos devem assegurar que um píxel CSS é definido o mais próximo possível ao <a href="https://www.w3.org/TR/css3-values/#reference-pixel">CSS Values and Units Module Level 3 reference pixel</a> [<cite><a class="bibref" href="#bib-css3-values">css3-values</a></cite>], o qual toma em linha de conta as dimensões físicas do ecrã e distância de visualização assumida (factores que não podem ser determinados pelos autores do conteúdo).</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-prerecorded">prégravado</dfn></dt>
+		<dd>
+			<p>informação que não é <a href="#dfn-live" class="internalDFN" data-link-type="dfn">em direto</a></p>
+		</dd>
+
+		<dt><dfn data-lt="processes|process" data-dfn-type="dfn" id="dfn-processes">processo</dfn></dt>
+		<dd>
+			<p>uma série de ações de utilizador, em que cada ação é necessária para levar a efeito e completar uma atividade</p>
+			<p class="example">Uma utilização com sucesso de uma série de páginas Web de uma loja online obriga os utilizadores a ver diversas alternativas de produtos, de preços e ofertas, a selecionar produtos, a submeter uma encomendas, a disponibilizar informação de expedição e a disponibilizar informação relacionada com o pagamento.</p>
+			<p class="example">Uma página de registo de conta obriga ao preenchimento com sucesso do teste de <em xml:lang="en" lang="en">Turing</em> antes de se poder aceder ao formulário de registo.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-programmatically-set">programaticamente configurado</dfn></dt>
+		<dd>
+			<p>configurado pelo software utilizando métodos suportados pelos agentes de utilizador, incluindo tecnologias de apoio</p>
+		</dd>
+
+		<dt><dfn data-lt="programmatically determinable|programmatically determined" data-dfn-type="dfn" id="dfn-programmatically-determinable">programaticamente determinado</dfn> (programaticamente determinável)</dt>
+		<dd>
+			<p>determinado pelo software a partir de dados fornecidos pelo autor, disponibilizados de uma forma que diferentes <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agentes de utilizador</a>, incluindo <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn">tecnologias de apoio</a>, podem extraír e apresentar esta informação aos utilizadores de diferentes maneiras</p>
+			<div class="note" id="issue-container-generatedID-115"><div role="heading" class="note-title marker" id="h-note-115" aria-level="3"><span>Nota</span></div><p class="">Determinado numa linguagem de marcação a partir dos elementos e dos atributos que são acedidos diretamente pela tecnologia de apoio comummente à disposição.</p></div>
+			<div class="note" id="issue-container-generatedID-116"><div role="heading" class="note-title marker" id="h-note-116" aria-level="3"><span>Nota</span></div><p class="">Determinado a partir de estruturas de dados de tecnologia específica numa linguagem que não é de marcação e que são expostos à tecnologia de apoio via uma API de acessibilidade que é suportada pela tecnologia de apoio comummente à disposição.</p></div>
+		</dd>
+
+		<dt><dfn data-lt="purpose of each link|link purpose" data-dfn-type="dfn" id="dfn-purpose-of-each-link">propósito de cada hiperligação</dfn></dt>
+		<dd>
+			<p>natureza do resultado obtido pelo pressionar de uma hiperligação</p>
+		</dd>
+
+		<dt class="new"><dfn data-lt="style properties|style property" data-dfn-type="dfn" id="dfn-style-properties">propriedade de estilo</dfn></dt>
+		<dd class="new">
+			<p>propriedade cujo valor determina a apresentação (e.g. tipo de letra, cor, tamanho, localização, <em xml:lang="en" lang="en">padding</em>, volume, prosódia da fala sintetizada) dos elementos de conteúdo tal como são interpretados (e.g. no ecrã, em voz alta, em ecrãs braille) pelos agentes de utilizador</p>
+			<p>As propriedades de estilo podem ter várias origens:</p>
+			<ul>
+				<li>Estilos prédefinidos no agente de utilizador: os valores prédefinidos da propriedade de estilo aplicáveis na ausência de estilos definidos pelo autor ou pelo utilizador. Algumas tecnologias de conteúdo Web especificam um resultado prédefinido, outras não o fazem;</li>
+				<li>Estilos de autor: valores da propriedade de estilo que são configuradas pelo autor como parte do conteúdo (e.g. estilos in-line, folhas de estilo do author);</li>
+				<li>Estilos de utilizador: valores de propriedade estilo que são configuradas pelo utilizador (e.g. via interface de configuração do agente de utilizador, folhas de estilo do utilizador)</li>
+			</ul>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-pure-decoration">pura decoração</dfn></dt>
+		<dd>
+			<p>serve apenas um propóstio estético, não fornecendo informação nem disponibilizando funcionalidade</p>
+			<div class="note" id="issue-container-generatedID-118"><div role="heading" class="note-title marker" id="h-note-118" aria-level="3"><span>Nota</span></div><p class="">O texto é puramente decorativo se as palavras podem ser reordenadas ou substituídas sem alteração do seu propósito.</p></div>
+			<p class="example">A página que serve de capa a um dicionário tem como plano de fundo palavras aleatórias em tons muito claros.</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-contrast-ratio">rácio de contraste</dfn></dt>
+		<dd>
+			<p>(L1 + 0.05) / (L2 + 0.05), em que</p>
+			<ul>
+				<li>L1 corresponde à <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn">luminescência relativa</a> da cor mais clara de todas, e</li>
+				<li>L2 corresponde à <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn">lunimescência relativa</a> da cor mais escura de todas.</li>
+			</ul>
+			<div class="note" id="issue-container-generatedID-74"><div role="heading" class="note-title marker" id="h-note-74" aria-level="3"><span>Nota</span></div><p class="">Os rácios de contraste podem variar no intervalo de 1 a 21 (geralmente escrito de 1:1 a 21:1).</p></div>
+			<div class="note" id="issue-container-generatedID-75"><div role="heading" class="note-title marker" id="h-note-75" aria-level="3"><span>Nota</span></div><p class="">Porque os autores não têm controlo sobre as configurações do utilizador como a forma como o texto é apresentado (por exemplo o tipo de letra polida ou não pixelizada), o contraste do texto pode ser avaliado com o modo anti-aliasing (não pixelizado) desligado.</p></div>
+			<div class="note" id="issue-container-generatedID-76"><div role="heading" class="note-title marker" id="h-note-76" aria-level="3"><span>Nota</span></div><p class="">Para o propósito expresso nos critérios de sucesso 1.4.3 e 1.4.6, o contraste é medido com respeito pela cor especificada no plano de fundo sobre o qual se apresenta, numa utilização normal, o texto. Se não se especifica a cor do plano de fundo, então o branco é assumido como referência.</p></div>
+			<div class="note" id="issue-container-generatedID-77"><div role="heading" class="note-title marker" id="h-note-77" aria-level="3"><span>Nota</span></div><p class="">A cor do plano de fundo é especificada pela cor do conteúdo sobre a qual o texto está a ser apresentado tendo por referência uma utilização normal. É considerada uma falha se, quando é especificada uma cor para o texto, não se especificar a cor do plano de fundo, porque a cor do plano de fundo definida por defeito pelo utilizador é desconhecida e não pode ser avaliada por ter suficiente contraste. Pela mesma razão, é considerada uma falha se, quando é especificada uma cor para um plano de fundo, não se especificar a cor do texto.</p></div>
+			<div class="note" id="issue-container-generatedID-78"><div role="heading" class="note-title marker" id="h-note-78" aria-level="3"><span>Nota</span></div><p class="">Quando existe um contorno à volta da letra, o contorno pode aumentar o contraste e seria usado para calcular o contraste existente entre a letra e o seu plano de fundo. Um contorno estreito em volta da letra seria considerado letra. Um contorno largo em volta da letra, que preencha os detalhes interiores das letras, atua como uma auréola e seria considerado plano de fundo.</p></div>
+			<div class="note" id="issue-container-generatedID-79"><div role="heading" class="note-title marker" id="h-note-79" aria-level="3"><span>Nota</span></div><p class="">A conformidade das WCAG deve ser avaliada para pares de cores especificados no conteúdo que um autor esperaria ver aparecer de modo adjacente, tendo por referência uma apresentação típica. Os autores não precisam considerar apresentações invulgares, tais como alterações de cor feitas pelos agentes de utilizador, mas já as devem considerar se causadas pelo código dos autores.</p></div>
+		</dd>
+
+		<dt class="new"><dfn data-lt="regions|region" data-dfn-type="dfn" id="dfn-regions">região</dfn></dt>
+		<dd class="new">
+			<p>secção do conteúdo percetível, programaticamente determinada</p>
+			<div class="note" id="issue-container-generatedID-119"><div role="heading" class="note-title marker" id="h-note-119" aria-level="3"><span>Nota</span></div><p class="">Em HTML, qualquer área designada com a <em xml:lang="en" lang="en">landmark</em> (ponto de referência) <code>role</code> seria uma região.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-relationships">relacionamentos</dfn></dt>
+		<dd>
+			<p>associações significantes entre distintas partes do conteúdo</p>
+		</dd>
+
+		<dt><dfn data-lt="satisfies|satisfies a success criterion" data-dfn-type="dfn" id="dfn-satisfies">satisfaz um critério de sucesso</dfn></dt>
+		<dd>
+			<p>o critério de sucesso não é avaliado como 'falso' quando aplicado à página</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-section">secção</dfn></dt>
+		<dd>
+			<p>uma porção auto contida de conteúdo escrito que negoceia com um ou mais tópicos ou pensamentos relacionados</p>
+			<div class="note" id="issue-container-generatedID-126"><div role="heading" class="note-title marker" id="h-note-126" aria-level="3"><span>Nota</span></div><p class="">Uma secção deve consistir de um ou mais parágrafos e inclui gráficos, tabelas, listas e subsecções.</p></div>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-correct-reading-sequence">sequência correta de leitura</dfn></dt>
+		<dd>
+			<p>qualquer sequência onde as palavras e os parágrafos são apresentados numa ordem que não altera o significado do conteúdo</p>
+		</dd>
+
+		<dt><dfn data-dfn-type="dfn" id="dfn-navigated-sequentially">sequencialmente navegável</dfn></dt>
+		<dd>
+			<p>navegável na ordem definido para o avanço do foco (de um elemento para o próximo) utilizando uma <a href="#dfn-keyboard-interface" class="internalDFN" data-link-type="dfn">interface de teclado</a></p>
 		</dd>
 
 		<dt><dfn data-lt="accessibility-supported|accessibility support|accessibility supported" data-dfn-type="dfn" id="dfn-accessibility-supported">suporte à acessibilidade</dfn></dt>
@@ -2117,24 +2703,30 @@
 			<div class="note" id="issue-container-generatedID-46"><div role="heading" class="note-title marker" id="h-note-46" aria-level="3"><span>Nota</span></div><p class="">Uma forma dos autores encontrarem utilizações de uma tecnologia com suporte à acessibilidade poderá ser através da consulta de compilações de utilizações documentadas por terem suporte à acessibilidade. (Consulte <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Compreendendo Utilizações de Tecnologia com Suporte à Acessibilidade</a>). Os autores, as empresas, os fabricantes de tecnologia ou outros podem documentar as formas de utilização com suporte à acessibiliade de tecnologias de conteúdo Web. No entanto, todas as formas de utilização das tecnologias listadas na documentação terão de satisfazer a definição de tecnologias de conteúdo Web com suporte à acessibilidade mencionada acima.</p></div>			
 		</dd>
 
-		<dt><dfn data-dfn-type="dfn" id="dfn-alternative-for-time-based-media">alternativa para media dinâmica ou contínua</dfn></dt>
+		<dt><dfn data-lt="large-scale|large scale" data-dfn-type="dfn" id="dfn-large-scale">tamanho grande</dfn> (texto em)</dt>
 		<dd>
-			<p>documento que inclui descrições de texto corretamente sequenciados da informação dinâmica visual e auditiva, disponibilizando um meio para alcançar qualquer uma das partes da interação dinâmica</p>
-			<div class="note" id="issue-container-generatedID-47"><div role="heading" class="note-title marker" id="h-note-47" aria-level="3"><span>Nota</span></div><p class="">Um guião utilizado para criar o conteúdo media sincronizado satisfará esta definição apenas se foi criado para representar assertivamente a media sincronizada final após a edição.</p></div>
+			<p>com, pelo menos, 18 pontos ou, se negrito, 14 pontos ou tamanho do tipo de letra do qual resultaria tamanho equivalente para tipos de letra CJK - Chinês, Japonês e Coreano</p>
+			<div class="note" id="issue-container-generatedID-97"><div role="heading" class="note-title marker" id="h-note-97" aria-level="3"><span>Nota</span></div><p class="">Tipos de letra com traços extraordinariamente finos ou características e aspetos invulgares, que reduzam o reconhecimento da forma das letras, são mais difíceis de ler, sobretudo com níveis de contraste mais baixos.</p></div>
+			<div class="note" id="issue-container-generatedID-98"><div role="heading" class="note-title marker" id="h-note-98" aria-level="3"><span>Nota</span></div><p class="">O tamanho do tipo de letra é o tamanho com que o conteúdo é apresentado. Não inclui o redimensionamento que poderá ser feito pelo utilizador.</p></div>
+			<div class="note" id="issue-container-generatedID-99"><div role="heading" class="note-title marker" id="h-note-99" aria-level="3"><span>Nota</span></div><p class="">O tamanho atual do caráter que um utilizador vê depende do tamanho definido pelo autor e do ecrã do utilizador, bem como das configurações do seu agente de utilizador. Para muitos tamanhos de letra comummente utilizados no corpo do texto, os 14 e os 18 pontos é mais ou menos equivalente a 1.2em e 1.5em ou a 120% e 150% do tamanho prédefinido para o corpo do texto (assumindo que o tipo de letra do corpo é de 100%), mas os autores necessitariam de verificar estas equivalências para os tipos de letra em uso nos seus casos. Quando os tamanhos de letra são definidos em unidades relativas, o tamanho atual do ponto é calculado através do agente de utilizador para ecrã. Quando avalia este critério de sucesso, o tamanho do ponto deve ser obtido a partir do agente de utilizador, ou calculado com base nas métricas para tipos de letra tal como o agente de utilizador as faz. Os utilizadores que têm baixa visão deveriam ser responsáveis pela escolha apropriada das configurações.</p></div>
+			<div class="note" id="issue-container-generatedID-100"><div role="heading" class="note-title marker" id="h-note-100" aria-level="3"><span>Nota</span></div><p class="">Quando se utiliza texto sem especificar o tamanho do tipo de letra, o tamanho de letra mais pequeno utilizado na maioria dos navegadores Web para texto não especificado seria um tamanho razoável a considerar. Se, na maioria dos navegadores Web, um cabeçalho de nível 1 resulta numa letra com 14pt ou superior, então seria razoável assumir de que se trata de texto de tamanho grande. De forma similar, a escala relativa pode ser calculada através dos tamanhos prédefinidos.</p></div>
+			<div class="note" id="issue-container-generatedID-101"><div role="heading" class="note-title marker" id="h-note-101" aria-level="3"><span>Nota</span></div><p class="">Os tamanhos de 18 e de 14 pontos para textos de línguas romanicas são obtidos a partir do tamanho mínimo para impressão em caracteres ampliados (14pt) e do tamanho padronizado maior (18pt). Para tipos de letra de línguas como a Chinesa, Japonesa e Coreana (CJK), os tamanhos "equivalentes" seriam o tamanho mínimo para impressão em caracteres ampliados utilizado para aquelas línguas e o tamanho padronizado imediatamente a seguir.</p></div>
 		</dd>
 
-		<dt><dfn data-dfn-type="dfn" id="dfn-ambiguous-to-users-in-general">ambíguo para todos os utilizadores em geral</dfn></dt>
-		<dd>
-			<p>o propósito não pode ser determinado a partir da hiperligação e de toda a informação da página Web apresentada ao utilizador simultaneamente com a hiperligação (i.e., os leitores sem incapacidades não saberiam o que uma hiperligação faria até que a ativassem)</p>
-			<p class="example">Na frase seguinte, a palavra goiaba é uma hiperligação "Uma das exportações notáveis é a goiaba". A hiperligação pode levar a uma definição de goiaba, a um gráfico que liste a quantidade de goiaba exportada ou a uma fotografia de pessoas na colheita da goiaba. Até que a hiperligação seja ativada, todos os leitores estaram na dúvida e as pessoas com incapacidade não estaram em qualquer desvantagem.</p>
+		<dt class="new"><dfn data-lt="keyboard shortcuts|keyboard shortcut" data-dfn-type="dfn" id="dfn-keyboard-shortcuts">tecla de atalho</dfn></dt>
+		<dd class="new">
+			<p>meio alternativo de desencadear uma ação através do pressionar de uma ou mais teclas</p>
 		</dd>
 
-		<dt><dfn data-dfn-type="dfn" id="dfn-ascii-art">arte ASCII</dfn></dt>
+		<dt><dfn data-lt="technologies|web technology|web content technology|web content technologies|technology" data-dfn-type="dfn" id="dfn-technologies">tecnologia</dfn> (Conteúdo Web)</dt>
 		<dd>
-			<p>imagem criada através de uma disposição espacial de carateres ou glifos (tipicamente a partir dos 95 carateres imprimíveis definidos pelo ASCII)</p>			
+			<p><a href="#dfn-mechanism" class="internalDFN" data-link-type="dfn">mecanismo</a> para codificar instruções a serem interpretadas, lidas ou executadas pelos <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agentes de utilizador</a></p>
+			<div class="note" id="issue-container-generatedID-130"><div role="heading" class="note-title marker" id="h-note-130" aria-level="3"><span>Nota</span></div><p class="">Tal como é utilizado nestas diretrizes "Tecnologia Web" e a palavra "tecnologia" (quando usada sozinha) referem-se ambas a Tecnologias de Conteúdo Web.</p></div>
+			<div class="note" id="issue-container-generatedID-131"><div role="heading" class="note-title marker" id="h-note-131" aria-level="3"><span>Nota</span></div><p class="">As tecnologias de conteúdo Web devem incluir linguagens de marcação, formatos de dados ou linguagens de programação que os autores podem usar de forma isolada ou de forma combinada para criarem experiências para os utilizadores finais que vão desde páginas estáticas, passando por apresentações de media sincronizadas, a aplicações Web dinâmicas.</p></div>
+			<p class="example">Alguns exemplos de tecnologias de conteúdo Web incluem HTML, CSS, SVG, PNG, PDF, Flash, e JavaScript.</p>
 		</dd>
 
-		<dt><dfn data-lt="assistive technologies|assistive technology" data-dfn-type="dfn" id="dfn-assistive-technologies">tecnologia de apoio</dfn> (tal como é usado neste documento)</dt>
+		<dt><dfn data-lt="assistive technologies|assistive technology" data-dfn-type="dfn" id="dfn-assistive-technologies">tecnologia de apoio</dfn> (tal como é utilizado neste documento)</dt>
 		<dd>
 			<p>hardware e/ou software que atua como um <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a>, ou em conjunto com um agente de utilizador convencional, disponibilizando a funcionalidade para satisfazer os requisitos dos utilizadores com incapacidades que vão para além daquelas que são oferecidas pelos agentes de utilizador convencionais</p>
 			<div class="note" id="issue-container-generatedID-48"><div role="heading" class="note-title marker" id="h-note-48" aria-level="3"><span>Nota</span></div><p class="">a funcionalidade disponibilizada pela tecnologia de apoio inclui apresentações alternativas (e.g., como sintetizadores de fala ou conteúdo ampliado), métodos de entrada alternativos (e.g., voz), navegação adicional mecanismos de orientação, e transformações de conteúdo (e.g., para fazer tabelas mais acessíveis).</p></div>
@@ -2151,75 +2743,26 @@
 			</ul>
 		</dd>
 
-		<dt><dfn data-dfn-type="dfn" id="dfn-audio">áudio</dfn></dt>
+		<dt><dfn data-dfn-type="dfn" id="dfn-text">texto</dfn></dt>
 		<dd>
-			<p>a tecnologia da reprodução do som</p>
-			<div class="note" id="issue-container-generatedID-51"><div role="heading" class="note-title marker" id="h-note-51" aria-level="3"><span>Nota</span></div><p class="">O áudio pode ser criado sinteticamente (incluindo sintetizador de fala), gravado do mundo real, ou ambos.</p></div>
+			<p>sequência de carateres que pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinado</a>, em que a sequência expressa algo em <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua humana</a></p>
 		</dd>
 
-		<dt><dfn data-lt="audio descriptions|audio description" data-dfn-type="dfn" id="dfn-audio-descriptions">áudiodescrição</dfn></dt>
-		<dd>
-			<p>narração adicionada à pista de áudio para descrever detalhes visuais importantes que não podem ser compreendidos a partir apenas da pista de áudio principal</p>
-			<div class="note" id="issue-container-generatedID-52"><div role="heading" class="note-title marker" id="h-note-52" aria-level="3"><span>Nota</span></div><p class="">A áudiodescrição do <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> disponibiliza informação sobre as ações, os personagens, as mudanças de cena, o texto no ecrã e outro conteúdo visual.</p></div>
-			<div class="note" id="issue-container-generatedID-53"><div role="heading" class="note-title marker" id="h-note-53" aria-level="3"><span>Nota</span></div><p class="">Na áudiodescrição padrão, a narração é adicionada durante as pausas existentes entre os diálogos. (Consulte também <a href="#dfn-extended-audio-description" class="internalDFN" data-link-type="dfn">áudiodescrição alargada</a>.)</p></div>
-			<div class="note" id="issue-container-generatedID-54"><div role="heading" class="note-title marker" id="h-note-54" aria-level="3"><span>Nota</span></div><p class="">Onde toda a informação <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> já estiver disponível no <a href="#dfn-audio" class="internalDFN" data-link-type="dfn">áudio</a> existente, não é necessário áudiodescrição adicional.</p></div>
-			<div class="note" id="issue-container-generatedID-55"><div role="heading" class="note-title marker" id="h-note-55" aria-level="3"><span>Nota</span></div><p class="">Também chamado de "videodescrição" e de "narração descritiva."</p></div>
+		<dt class="new"><dfn data-dfn-type="dfn" id="dfn-single-pointer">um só apontador</dfn></dt>
+		<dd class="new">
+			<p>apontador de entrada que opera com um ponto de contacto com o ecrã, incluindo toques e cliques únicos, duplos toques e cliques, pressão prolongada e gestos sequenciais</p>
 		</dd>
 
-		<dt><dfn data-dfn-type="dfn" id="dfn-audio-only">apenas áudio</dfn></dt>
-		<dd>
-			<p>uma apresentação dinâmica ou contínua que contém apenas <a href="#dfn-audio" class="internalDFN" data-link-type="dfn">áudio</a> (sem <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> e sem interação)</p>			
+		<dt class="new"><dfn data-dfn-type="dfn" id="dfn-up-event">up-event</dfn></dt>
+		<dd class="new">
+			<p>evento de plataforma que ocorre quando o <em xml:lang="en" lang="en">trigger stimulus</em> (interruptor) de um apontador é libertado</p>
+			<p>O up-event pode ter diferentes nomes em diferentes plataformas, tais como "touchend" ou "mouseup".</p>
 		</dd>
 
-		<dt><dfn data-dfn-type="dfn" id="dfn-blinking">blinking (intermitente)</dfn></dt>
+		<dt><dfn data-dfn-type="dfn" id="dfn-used-in-an-unusual-or-restricted-way">utilizadas de forma invulgar ou de um modo restrito</dfn></dt>
 		<dd>
-			<p>alternância entre dois estados visuais, de forma a chamar a atenção</p>
-			<div class="note" id="issue-container-generatedID-56"><div role="heading" class="note-title marker" id="h-note-56" aria-level="3"><span>Nota</span></div><p class="">Consulte também <a href="#dfn-flashes" class="internalDFN" data-link-type="dfn">flash</a>. É possível a algo que é suficientemente grande, de luz brilhante e suficientemente intermitente, na frequência correta, seja também classificado como um flash.</p></div>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-blocks-of-text">blocos de texto</dfn></dt>
-		<dd>
-			<p>mais do que uma frase de texto</p>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-captcha">CAPTCHA</dfn></dt>
-		<dd>
-			<p>iniciais de "<em xml:lang="en" lang="en">Completely Automated Public Turing test to tell Computers and Humans Apart</em>" (teste Público de Turing Completamente Automatizado para Diferenciar os Computadores dos Humanos)</p>
-			<div class="note" id="issue-container-generatedID-57"><div role="heading" class="note-title marker" id="h-note-57" aria-level="3"><span>Nota</span></div><p class="">Os testes CAPTCHA implicam, frequentemente, solicitar ao utilizador que escreva em texto o que é mostrado numa imagem ou num ficheiro de áudio obscurecido.</p></div>
-			<div class="note" id="issue-container-generatedID-58"><div role="heading" class="note-title marker" id="h-note-58" aria-level="3"><span>Nota</span></div><p class="">Um teste de Turing é um qualquer sistema de testes concebido para distinguir um humano de um computador. É a sua designação deve-se ao famoso cientísta de computação Alan Turing. O termo foi cunhado pelos investigadores da Universidade de Carnegie Mellon.</p></div>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-captions">legendagem</dfn></dt>
-		<dd>
-			<p>alternativa visual e/ou <a href="#dfn-text-alternative" class="internalDFN" data-link-type="dfn">alaternativa em texto</a> sincronizado para informação áudio, contendo fala ou não, necessária para compreender o conteúdo media</p>
-			<div class="note" id="issue-container-generatedID-59"><div role="heading" class="note-title marker" id="h-note-59" aria-level="3"><span>Nota</span></div><p class="">A legendagem (captions) é similar à legendagem  dos diálogos (subtitles) exceto que a legendagem (captions) transmite não apenas o conteúdo dos diálogos falados mas também os equivalentes para a informação de áudio não verbal necessários para compreender o conteúdo do programa, incluindo efeitos sonoros, música, gargalhadas e identificação e localização do interlocutor.</p></div>
-			<div class="note" id="issue-container-generatedID-60"><div role="heading" class="note-title marker" id="h-note-60" aria-level="3"><span>Nota</span></div><p class="">A legendagem fechada é um equivalente que pode ser ligado ou desligado em alguns leitores de media.</p></div>
-			<div class="note" id="issue-container-generatedID-61"><div role="heading" class="note-title marker" id="h-note-61" aria-level="3"><span>Nota</span></div><p class="">A legendagem aberta corresponde à legendagem que não pode ser desligada. Por exemplo, a legendagem é um equivalente visual de <a href="#dfn-images-of-text" class="internalDFN" data-link-type="dfn">imagens de texto</a> inseridas no <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a>.</p></div>
-			<div class="note" id="issue-container-generatedID-62"><div role="heading" class="note-title marker" id="h-note-62" aria-level="3"><span>Nota</span></div><p class="">A legendagem não deve obscurecer ou obstruir informação relevante no vídeo.</p></div>
-			<div class="note" id="issue-container-generatedID-63"><div role="heading" class="note-title marker" id="h-note-63" aria-level="3"><span>Nota</span></div><p class="">Em alguns países, a legendagem (captions) é designada de legendagem (subtitles).</p></div>
-			<div class="note" id="issue-container-generatedID-64"><div role="heading" class="note-title marker" id="h-note-64" aria-level="3"><span>Nota</span></div><p class="">A <a href="#dfn-audio-descriptions" class="internalDFN" data-link-type="dfn">áudiodescrição</a> pode ser, mas não precisa de o ser, legendada uma vez que ela corresponde a descrições de informação que já está presente visualmente.</p></div>
-		</dd>
-
-		<dt><dfn data-lt="change of context|changes of context" data-dfn-type="dfn" id="dfn-change-of-context">alterações do contexto</dfn></dt>
-		<dd>
-
-			alterações significativas no conteúdo da página Web que, se efetuadas sem conhecimento do utilizador, podem desorientar os utilizadores que não são capazes de ver a página como um todo
-
-			<p>alterações significativas no conteúdo da <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a> que, se feitas sem que disso o utilizador tenha consciência, podem desorientar os utilizadores que não são capazes de abranger a página no seu todo</p>
-			<p>As alterações no contexto incluem alterações de:</p>
-			<ol>
-				<li><a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a>;</li>
-				<li><a href="#dfn-viewport" class="internalDFN" data-link-type="dfn">viewport (ecrã de visualização)</a>;</li>
-				<li>foco;</li>
-				<li><a href="#dfn-content" class="internalDFN" data-link-type="dfn">conteúdo</a> que altera o significado da <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a></li>
-			</ol>
-			<div class="note" id="issue-container-generatedID-65"><div role="heading" class="note-title marker" id="h-note-65" aria-level="3"><span>Nota</span></div><p class="">Uma alteração de conteúdo nem sempre corresponde a uma alteração de contexto. Alterações de conteúdo tais como a expansão de uma descrição geral, de um menu dinâmico, ou a expansão de um separador não altera necessariamente o contexto, a menos que eles alterem também um dos elementos acima (e.g., o foco).</p></div>
-			<p class="example">Abrir uma nova janela, mover no foco para um componente diferente, ir para uma nova página  (incluindo qualquer coisa que dê a sensação ao utilizador de se ter deslocado para uma nova página) ou reorganizar significativamente o conteúdo de uma página, são exemplos de alterações de contexto.</p>
-		</dd>
-
-		<dt><dfn data-lt="conform|conformance" data-dfn-type="dfn" id="dfn-conform">conformidade</dfn></dt>
-		<dd>
-			<p>satisfazer todos os requisitos de um determinado padrão, diretriz ou especificação</p>
+			<p>palavras utilizadas de tal forma que obrigam os utilizadores a saberem exatamente que definição usar, de forma a compreenderem o conteúdo corretamente</p>
+			<p class="example">O termo "gig" significa algo diferente se ocorre numa discusão de concertos de música ou se está num artigo sobre espaço de um disco rígido de um computador, mas a definição apropriada pode ser determinada a partir do contexto. Por contraste, a palavra "texto" é utilizada de uma forma muito específica nas WCAG 2.1, razão pela qual é fornecida uma definião no glossário.</p>
 		</dd>
 
 		<dt><dfn data-dfn-type="dfn" id="dfn-conforming-alternate-version">versão alternativa em conformidade</dfn></dt>
@@ -2227,7 +2770,7 @@
 			<p>versão que</p>
 			<ol>
 				<li>está conforme com o nível designado, e</li>
-				<li>disponibiliza integralmente a mesma informação e <a href="#dfn-functionality" class="internalDFN" data-link-type="dfn">funcionalidade</a> na mesma <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua humana</a> (idioma), e</li>
+				<li>disponibiliza integralmente a mesma informação e <a href="#dfn-functionality" class="internalDFN" data-link-type="dfn">funcionalidade</a> na mesma <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua/linguagem humana</a> (idioma), e</li>
 				<li>está tão atualizada quanto o conteúdo não conforme, e</li>
 				<li>
 					<p>para a qual, pelo menos, uma das seguintes é verdadeira:</p>
@@ -2248,569 +2791,20 @@
 			<p>Consulte <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Compreendendo Conformidade em Versões Alternativas</a></p>
 		</dd>
 
-		<dt><dfn data-dfn-type="dfn" id="dfn-content">conteúdo</dfn> (conteúdo Web)</dt>
-		<dd><p>informação e experiência sensorial a ser comunicada ao utilizador por meio de um <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a>, incluindo código ou marcação que defina a <a href="#dfn-structure" class="internalDFN" data-link-type="dfn">estrutura</a>, a <a href="#dfn-presentation" class="internalDFN" data-link-type="dfn">apresentação</a> e as interações do conteúdo</p>
+		<dt><dfn data-dfn-type="dfn" id="dfn-video">vídeo</dfn></dt>
+		<dd>
+			<p>a tecnologia dos filmes ou de imagens sequenciais ou de imagens</p>
+			<div class="note" id="issue-container-generatedID-138"><div role="heading" class="note-title marker" id="h-note-138" aria-level="3"><span>Nota</span></div><p class="">O vídeo pode ser composto por imagens fotográficas ou animadas, ou por ambas.</p></div>
 		</dd>
 
-		<dt><dfn data-dfn-type="dfn" id="dfn-context-sensitive-help">ajuda contextualizada</dfn></dt>
+		<dt><dfn data-dfn-type="dfn" id="dfn-viewport">viewport (janela de visualização)</dfn></dt>
 		<dd>
-			<p>texto de ajuda que disponibiliza informação relacionada com a função em execução no momento</p>
-			<div class="note" id="issue-container-generatedID-73"><div role="heading" class="note-title marker" id="h-note-73" aria-level="3"><span>Nota</span></div><p class="">Etiquetas escritas com clareza podem servir de ajuda contextualizada.</p></div>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-contrast-ratio">rácio de contraste</dfn></dt>
-		<dd>
-			<p>(L1 + 0.05) / (L2 + 0.05), em que</p>
-			<ul>
-				<li>L1 corresponde à <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn">luminescência relativa</a> da cor mais clara de todas, e</li>
-				<li>L2 corresponde à <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn">lunimescência relativa</a> da cor mais escura de todas.</li>
-			</ul>
-			<div class="note" id="issue-container-generatedID-74"><div role="heading" class="note-title marker" id="h-note-74" aria-level="3"><span>Nota</span></div><p class="">Os rácios de contraste podem variar no intervalo de 1 a 21 (geralmente escrito de 1:1 a 21:1).</p></div>
-			<div class="note" id="issue-container-generatedID-75"><div role="heading" class="note-title marker" id="h-note-75" aria-level="3"><span>Nota</span></div><p class="">Porque os autores não têm controlo sobre as configurações do utilizador como a forma como o texto é apresentado (por exemplo o tipo de letra polida ou não pixelizada), o contraste do texto pode ser avaliado com o modo anti-aliasing (não pixelizado) desligado.</p></div>
-			<div class="note" id="issue-container-generatedID-76"><div role="heading" class="note-title marker" id="h-note-76" aria-level="3"><span>Nota</span></div><p class="">Para o propósito expresso nos critérios de sucesso 1.4.3 e 1.4.6, o contraste é medido com respeito pela cor especificada no plano de fundo sobre o qual se apresenta, numa utilização normal, o texto. Se não se especifica a cor do plano de fundo, então o branco é assumido como referência.</p></div>
-			<div class="note" id="issue-container-generatedID-77"><div role="heading" class="note-title marker" id="h-note-77" aria-level="3"><span>Nota</span></div><p class="">A cor do plano de fundo é especificada pela cor do conteúdo sobre a qual o texto está a ser apresentado tendo por referência uma utilização normal. É considerada uma falha se, quando é especificada uma cor para o texto, não se especificar a cor do plano de fundo, porque a cor do plano de fundo definida por defeito pelo utilizador é desconhecida e não pode ser avaliada por ter suficiente contraste. Pela mesma razão, é considerada uma falha se, quando é especificada uma cor para um plano de fundo, não se especificar a cor do texto.</p></div>
-			<div class="note" id="issue-container-generatedID-78"><div role="heading" class="note-title marker" id="h-note-78" aria-level="3"><span>Nota</span></div><p class="">Quando existe um contorno à volta da letra, o contorno pode aumentar o contraste e seria usado para calcular o contraste existente entre a letra e o seu plano de fundo. Um contorno estreito em volta da letra seria considerado letra. Um contorno largo em volta da letra, que preencha os detalhes interiores das letras, atua como uma auréola e seria considerado plano de fundo.</p></div>
-			<div class="note" id="issue-container-generatedID-79"><div role="heading" class="note-title marker" id="h-note-79" aria-level="3"><span>Nota</span></div><p class="">A conformidade das WCAG deve ser avaliada para pares de cores especificados no conteúdo que um autor esperaria ver aparecer de modo adjacente, tendo por referência uma apresentação típica. Os autores não precisam considerar apresentações invulgares, tais como alterações de cor feitas pelos agentes de utilizador, mas já as devem considerar se causadas pelo código dos autores.</p></div>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-correct-reading-sequence">sequência correta de leitura</dfn></dt>
-		<dd>
-			<p>qualquer sequência onde as palavras e os parágrafos são apresentados numa ordem que não altera o significado do conteúdo</p>
+			<p>objeto no qual o agente de utilizador apresenta o conteúdo</p>
+			<div class="note" id="issue-container-generatedID-139"><div role="heading" class="note-title marker" id="h-note-139" aria-level="3"><span>Nota</span></div><p class="">O <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a> apresenta o conteúdo através de uma ou mais <em xml:lang="en" lang="en">viewports</em> (janelas de apresentação). As <em xml:lang="en" lang="en">Viewports</em> incluem janelas, molduras, altifalantes e óculos de ampliação virtual. Uma <em xml:lang="en" lang="en">viewport</em> pode conter outra <em xml:lang="en" lang="en">viewport</em> (e.g., molduras encadeadas). As componentes da interface criadas pelos agentes de utilizador tais como <em xml:lang="en" lang="en">prompts</em>, menus, e alertas não são <em xml:lang="en" lang="en">viewports</em>.</p></div>
+			<div class="note" id="issue-container-generatedID-140"><div role="heading" class="note-title marker" id="h-note-140" aria-level="3"><span>Nota</span></div><p class="">Esta definição baseia-se nas <a href="https://www.w3.org/TR/WAI-USERAGENT/glossary.html">no Glossário das Diretrizes de Acessibilidade dos Agentes de Utilizador 1.0</a> [<cite><a class="bibref" href="#bib-UAAG10">UAAG10</a></cite>].</p></div>
 		</dd>		
-
-		<dt class="new"><dfn data-lt="css pixels|css pixel" data-dfn-type="dfn" id="dfn-css-pixels">píxel CSS</dfn></dt>
-		<dd class="new">
-			<p>ângulo visual de cerca de 0.0213 graus</p>
-			
-			<p>Um píxel CSS é a unidade de medida canónica para todas as dimensões e medidas em CSS. Esta unidade é independente da densidade e distinta dos píxeis de <em xml:lang="en" lang="en">hardware</em> atuais presentes num ecrã. Os agentes de utilizador e os sistemas operativos devem assegurar que um píxel CSS é definido o mais próximo possível ao <a href="https://www.w3.org/TR/css3-values/#reference-pixel">CSS Values and Units Module Level 3 reference pixel</a> [<cite><a class="bibref" href="#bib-css3-values">css3-values</a></cite>], o qual toma em linha de conta as dimensões físicas do ecrã e distância de visualização assumida (factores que não podem ser determinados pelos autores do conteúdo).</p>
-		</dd>
-
-		<dt class="new"><dfn data-dfn-type="dfn" id="dfn-down-event">down-event</dfn></dt>
-		<dd class="new">
-			<p>evento de plataforma que ocorre quando o acionador por estimulo do ponteiro é premido</p>
-			<p>O down-event pode ter nomes diferentes em plataformas diferentes, tais como "touchstart" ou "mousedown".</p>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-emergency">emergência</dfn></dt>
-		<dd>
-			<p>uma situação ou ocorrência súbita, inesperada que obriga a ação imediata para preservar a saúde, a segurança ou a propriedade</p>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-essential">essencial</dfn></dt>
-		<dd>
-			<p>se retirado, alteraria profundamente a informação ou a funcionalidade do conteúdo, <strong>e</strong> a informação e a funcionalidade não podem ser alcançadas de outras maneiras que estejam conformes</p>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-extended-audio-description">áudiodescrição alargada</dfn></dt>
-		<dd>
-			<p>áudiodescrição que é adicionada a uma apresentação audiovisual através da colocação do <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> em pausa, de modo a criar espaços que permitam adicionar descrições suplementares</p>
-			<div class="note" id="issue-container-generatedID-80"><div role="heading" class="note-title marker" id="h-note-80" aria-level="3"><span>Nota</span></div><p class="">Esta técnica é apenas utilizada quando o sentido do <a href="#dfn-video" class="internalDFN" data-link-type="dfn">video</a> seria perdido sem a <a href="#dfn-audio-descriptions" class="internalDFN" data-link-type="dfn">áudiodescrição</a> adicional e as pausas existentes entre os diálogos/narração são demasiado curtos.</p></div>
-		</dd>
-
-		<dt><dfn data-lt="flashes|flash" data-dfn-type="dfn" id="dfn-flashes">flash</dfn></dt>
-		<dd>
-			<p>um par de alterações opostas na <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn">luminescência relativa</a> que pode causar convulsões em algumas pessoas caso a exposição seja prolongada e ocorra num intervalo de frequência preciso</p>
-			<div class="note" id="issue-container-generatedID-81"><div role="heading" class="note-title marker" id="h-note-81" aria-level="3"><span>Note</span></div><p class="">Consulte <a href="#dfn-general-flash-and-red-flash-thresholds" class="internalDFN" data-link-type="dfn">limiares de flash geral e flash vermelho</a> para informação sobre tipos de flash que não são permitidos.</p></div>
-			<div class="note" id="issue-container-generatedID-82"><div role="heading" class="note-title marker" id="h-note-82" aria-level="3"><span>Nota</span></div><p class="">Consulte também <a href="#dfn-blinking" class="internalDFN" data-link-type="dfn">em modo intermitente (blinking)</a>.</p></div>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-functionality">funcionalidade</dfn></dt>
-		<dd>
-			<p><a href="#dfn-processes" class="internalDFN" data-link-type="dfn">processos</a> e resultados alcançáveis através da ação do utilizador</p>			
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-general-flash-and-red-flash-thresholds">limiares de flash geral e flash vermelho</dfn></dt>
-		<dd>
-			<p>um <a href="#dfn-flashes" class="internalDFN" data-link-type="dfn">flash</a> ou alteração rápida de sequência de imagens encontra-se abaixo do limiar (i.e., conteúdo <strong>passa</strong>) se qualquer um dos seguintes é verdadeiro:</p>
-			<ol>
-				<li>não existem mais de três <strong>flashes gerais</strong> e / ou não mais de três <strong>flashes vermelhos</strong> em cada segundo; ou</li>
-				<li>a área combinada de flashes simultâneos não representa mais do que um total de 0.006 esterradianos dentro de cada campo visual de 10 graus do ecrã (25% de cada campo visual de 10 graus do ecrã) a uma distância típica de visualização</li>
-			</ol>
-			<p>onde:</p>
-			<ul>
-				<li>Um <strong>flash geral</strong> é definido como um par de alterações opostas na <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn">luminescência relativa</a> de 10% ou superior da luminescência relativa máxima em que a luminescência relativa da imagem mais escura está abaixo dos 0.80; e em que "o par de alterações opostas" aumenta seguido por um decréscimo, ou diminui seguido por um acréscimo, e</li>				
-				<li>Um <strong>flash vermelho</strong> é definido como um qualquer par de transições opostas envolvendo um vermelho saturado</li>
-			</ul>
-			<p><em>Exceção:</em> Os flashes que resultam de um padrão como o ruído branco, fino, balanceado ou de um padrão semelhante a um tabuleiro de xadrez que alterna, com "quadrados" mais pequenos que 0.1 graus de lado (de um campo visual à distância típica de visualização) não viola os limiares.</p>
-			<div class="note" id="issue-container-generatedID-83"><div role="heading" class="note-title marker" id="h-note-83" aria-level="3"><span>Nota</span></div><p class="">Para a generalidade do software ou conteúdo Web, a utilização de um retângulo com 341 x 256 píxeis posicionado em qualquer área de visualização do ecrã, quando o conteúdo é visto em 1024 x 768 píxeis, será bem visualizado num campo de visão de 10 graus num ecrã de tamanho padrão e visionado a uma distância padrão (e.g., ecrã de 15-17 polegadas a 22-26 polegadas). (Os ecrãs com resoluções altas mostram o mesmo conteúdo que cabe nos pequenos, por isso são as resoluções mais baixas que são utilizadas para definir os limiares.)</p></div>
-			<div class="note" id="issue-container-generatedID-84"><div role="heading" class="note-title marker" id="h-note-84" aria-level="3"><span>Nota</span></div><p class="">Uma transição é a alteração na luminescência relativa (ou luminescência relativa/cor para flash vermelho) entre altos e baixos adjacentes num plano de medida de luminescência relativa (ou luminescência relativa/cor para flash vermelho) em comparação com o tempo. Um flash consiste em duas transições contrárias.</p></div>
-
-
-			Para efeitos de trabalho, a atual definição adotada no setor para "par de transições opostas envolvendo um vermelho saturado" ocorre, para cada um ou para ambos os estados envolvidos em cada transição, R/(R+ G + B) >= 0.8, e a alteração do valor de (R-G-B)x320 é > 20 (valores negativos de (R-G-B)x320 são ajustados para zero) para ambas as transições. R, G, B valores no intervalo de 0-1 tal como especificado na definição de “luminescência relativa”. [HARDING-BINNIE]
-			
-			
-
-
-			<div class="note" id="issue-container-generatedID-85"><div role="heading" class="note-title marker" id="h-note-85" aria-level="3"><span>Nota</span></div><p class="">A definição atual de trabalho no campo para <strong>"um par de transições opostas envolvendo um vermelho saturado"</strong> é onde, para cada um ou para ambos os estados envolvidos em cada transição, R/(R+ G + B) >= 0.8, e a alteração do valor de (R-G-B)x320 é > 20 (valores negativos de (R-G-B)x320 são ajustados para zero) para ambas as transições. R, G, B valores no intervalo de 0-1 tal como especificado na definição de “luminescência relativa”. [<cite><a class="bibref" href="#bib-HARDING-BINNIE">HARDING-BINNIE</a></cite>]</p></div>
-			
-			<div class="note" id="issue-container-generatedID-86"><div role="heading" class="note-title marker" id="h-note-86" aria-level="3"><span>Nota</span></div><p class="">Estão disponíveis ferramentas que irão executar análises a partir de capturas de vídeo do ecrã. Todavia, não é necessário uma ferramenta para avaliar esta condição se os flashes forem inferiores ou iguais a 3 flashes em qualquer um dos segundos. O conteúdo é conforme automaticamente (consulte #1 e #2 acima).</p></div>
-		</dd>
-
-		<dt><dfn data-lt="human language(s)|human language" data-dfn-type="dfn" id="dfn-human-language-s">língua humana</dfn></dt>
-		<dd>
-			<p>língua que é falada, escrita ou gestual (através de meios visuais ou táteis) para comunicar com humanos</p>
-			<div class="note" id="issue-container-generatedID-87"><div role="heading" class="note-title marker" id="h-note-87" aria-level="3"><span>Nota</span></div><p class="">Consulte também <a href="#dfn-sign-language" class="internalDFN" data-link-type="dfn">língua gestual</a>.</p></div>
-		</dd>
-
-		<dt><dfn data-lt="idioms|idiom" data-dfn-type="dfn" id="dfn-idioms">expressões idiomáticas</dfn></dt>
-		<dd>			
-			<p>expressão cujo significado não pode ser deduzido a partir do significado de palavras isoladas e em que as palavras específicas não podem ser alteradas sem que esta perca o seu sentido</p>			
-			<div class="note" id="issue-container-generatedID-88"><div role="heading" class="note-title marker" id="h-note-88" aria-level="3"><span>Nota</span></div><p class="">as expressões idiomáticas não podem ser literalmente traduzidas, sem perder o seu sentido (cultural ou linguistico).</p></div>
-			<p class="example">Em inglês, "<em xml:lang="en" lang="en">spilling the beans</em>" significa "revelar um segredo". Contudo, "<em xml:lang="en" lang="en">knocking over the beans</em>" (derrubar os feijões) ou "<em lang="en" xml:lang="en">spilling the vegetables</em>" (deixar cair os feijões) não tem o mesmo significado.</p>
-			<p class="example">Em japonês, a expressão "<span lang="ja">さじを投げる</span>" traduz-se literalmente como "<em xml:lang="en" lang="en">he throws a spoon</em>" (ele atira uma colher), mas, na verdade significa que não há mais nada que ele possa fazer e que, finalmente, ele vai desistir.</p>
-			<p class="example">Em holandês, "<span lang="nl">Hij ging met de kippen op stok</span>" traduz-se literalmente como "<em xml:lang="en" lang="en">He went to roost with the chickens</em>" ("Deitou-se com as galinhas"), mas na verdade significa que ele foi cedo para a cama.</p>
-		</dd>
-
-		<dt><dfn data-lt="images of text|image of text" data-dfn-type="dfn" id="dfn-images-of-text">imagem de texto</dfn></dt>
-		<dd>			
-			<p>texto que foi convertido na forma não textual (e.g., uma imagem) para se obter um determinado efeito visual</p>
-			<div class="note" id="issue-container-generatedID-89"><div role="heading" class="note-title marker" id="h-note-89" aria-level="3"><span>Nota</span></div><p class="">Isto não inclui <a href="#dfn-text" class="internalDFN" data-link-type="dfn">texto</a> que é parte de uma imagem que contém outro conteúdo visual significante.</p></div>
-			<p class="example">O nome de uma pessoa numa etiqueta de uma fotografia.</p>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-informative">informativo</dfn></dt>
-		<dd>
-			<p>com propósito informativo e que não é obrigatório para efeitos de conformidade</p>
-			<div class="note" id="issue-container-generatedID-90"><div role="heading" class="note-title marker" id="h-note-90" aria-level="3"><span>Nota</span></div><p class="">O conteúdo obrigatório para efeitos de <a href="#dfn-conform" class="internalDFN" data-link-type="dfn">conformidade</a> encontra-se referenciado como sendo "<a href="#dfn-normative" class="internalDFN" data-link-type="dfn">normativo</a>."</p></div>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-input-error">erro de entrada</dfn></dt>
-		<dd>
-			<p>informação fornecida pelo utilizador que não foi aceite</p>
-			<div class="note" id="issue-container-generatedID-91"><div role="heading" class="note-title marker" id="h-note-91" aria-level="3"><span>Nota</span></div>
-			<div class="">
-				<p>Isto inclui:</p>
-				<ol>
-					<li>Informação que é obrigatória introduzir na <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a> mas que foi omitida pelo utilizador</li>
-					<li>Informação que é fornecida pelo utilizador mas cujos dados estão fora do formato ou dos valores admissíveis</li>
-				</ol>
-			</div>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-jargon">jargão</dfn></dt>
-		<dd>
-			<p>palavras utilizadas pelas pessoas de uma forma particular num domínio específico</p>
-			<p class="example">Por exemplo a palavra <em xml:lang="en" lang="en">StickyKeys</em> (teclas presas) é jargão do campo da acessibilidade/tecnologia de apoio.</p>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-keyboard-interface">interface de teclado</dfn></dt>
-		<dd>
-			<p>interface utilizada pelo software para obter entradas por digitação</p>
-			<div class="note" id="issue-container-generatedID-92"><div role="heading" class="note-title marker" id="h-note-92" aria-level="3"><span>Nota</span></div><p class="">Uma interface de teclado permite aos utilizadores digitar entradas no programa mesmo que a tecnologia nativa não disponha de teclado.</p></div>
-			<p class="example">Um PDA com ecrã sensível ao toque tem uma interface de teclado incorporada no seu sistema operativo, assim como uma conexão para teclados externos. As aplicações do PDA podem usar a interface para obter inserção de dados por teclado quer através de um teclado externo quer através de aplicações que simulam saídas de teclado, tais como sistemas de interpretação de carateres manuscritos ou aplicações de reconhecimento de voz com a funcionalidade de "emulação de teclado".</p>
-			<div class="note" id="issue-container-generatedID-94"><div role="heading" class="note-title marker" id="h-note-94" aria-level="3"><span>Nota</span></div><p class="">A utilização de uma aplicação (ou partes da aplicação) através de emuladores de rato pelo teclado, tais como o MouseKeys (teclas do rato), não a qualifica como sendo uma operação por interface de teclado porque a operação do programa é, neste caso, feita pela sua interface de dispositivo apontador e não pela sua interface de teclado.</p></div>
-		</dd>
-
-		<dt class="new"><dfn data-lt="keyboard shortcuts|keyboard shortcut" data-dfn-type="dfn" id="dfn-keyboard-shortcuts">tecla de atalho</dfn></dt>
-		<dd class="new">
-			<p>meio alternativo de desencadear uma ação através do pressionar de uma ou mais teclas</p>
-		</dd>
-
-		<dt><dfn data-lt="labels|label" data-dfn-type="dfn" id="dfn-labels">etiqueta</dfn></dt>
-		<dd>
-			<p><a href="#dfn-text" class="internalDFN" data-link-type="dfn">texto</a> ou outra componente com um <a href="#dfn-text-alternative" class="internalDFN" data-link-type="dfn">alternativo em texto</a> que é apresentado a um utilizador para identificar uma componentes do <a href="#dfn-content" class="internalDFN" data-link-type="dfn">conteúdo</a> Web</p>
-			<div class="note" id="issue-container-generatedID-95"><div role="heading" class="note-title marker" id="h-note-95" aria-level="3"><span>Nota</span></div><p class="">Uma etiqueta é apresentada a todos os utilizadores, enquanto que o <a href="#dfn-name" class="internalDFN" data-link-type="dfn">nome</a> pode ser escondido e exposto apenas à tecnologia de apoio. Em muitos (mas não em todos) casos o nome e a etiqueta são a mesma.</p></div>
-			<div class="note" id="issue-container-generatedID-96"><div role="heading" class="note-title marker" id="h-note-96" aria-level="3"><span>Nota</span></div><p class="">O termo etiqueta não está limitado ao elemento <code>label</code> da linguagem HTML.</p></div>
-		</dd>
-
-		<dt><dfn data-lt="large-scale|large scale" data-dfn-type="dfn" id="dfn-large-scale">tamanho grande</dfn> (texto)</dt>
-		<dd>
-			<p>com, pelo menos, 18 pontos ou, se negrito, 14 pontos ou tamanho do tipo de letra do qual resultaria tamanho equivalente para tipos de letra CJK - Chinês, Japonês e Coreano</p>
-			<div class="note" id="issue-container-generatedID-97"><div role="heading" class="note-title marker" id="h-note-97" aria-level="3"><span>Nota</span></div><p class="">Tipos de letra com traços extraordinariamente finos ou características e aspetos invulgares, que reduzam o reconhecimento da forma das letras, são mais difíceis de ler, sobretudo com níveis de contraste mais baixos.</p></div>
-			<div class="note" id="issue-container-generatedID-98"><div role="heading" class="note-title marker" id="h-note-98" aria-level="3"><span>Nota</span></div><p class="">O tamanho do tipo de letra é o tamanho com que o conteúdo é apresentado. Não inclui o redimensionamento que poderá ser feito pelo utilizador.</p></div>
-			<div class="note" id="issue-container-generatedID-99"><div role="heading" class="note-title marker" id="h-note-99" aria-level="3"><span>Nota</span></div><p class="">O tamanho atual do caráter que um utilizador vê depende do tamanho definido pelo autor e do ecrã do utilizador, bem como das configurações do seu agente de utilizador. Para muitos tamanhos de letra comummente utilizados no corpo do texto, os 14 e os 18 pontos é mais ou menos equivalente a 1.2em e 1.5em ou a 120% e 150% do tamanho prédefinido para o corpo do texto (assumindo que o tipo de letra do corpo é de 100%), mas os autores necessitariam de verificar estas equivalências para os tipos de letra em uso nos seus casos. Quando os tamanhos de letra são definidos em unidades relativas, o tamanho atual do ponto é calculado através do agente de utilizador para ecrã. Quando avalia este critério de sucesso, o tamanho do ponto deve ser obtido a partir do agente de utilizador, ou calculado com base nas métricas para tipos de letra tal como o agente de utilizador as faz. Os utilizadores que têm baixa visão deveriam ser responsáveis pela escolha apropriada das configurações.</p></div>
-			<div class="note" id="issue-container-generatedID-100"><div role="heading" class="note-title marker" id="h-note-100" aria-level="3"><span>Nota</span></div><p class="">Quando se utiliza texto sem especificar o tamanho do tipo de letra, o tamanho de letra mais pequeno utilizado na maioria dos navegadores Web para texto não especificado seria um tamanho razoável a considerar. Se, na maioria dos navegadores Web, um cabeçalho de nível 1 resulta numa letra com 14pt ou superior, então seria razoável assumir de que se trata de texto de tamanho grande. De forma similar, a escala relativa pode ser calculada através dos tamanhos prédefinidos.</p></div>
-			<div class="note" id="issue-container-generatedID-101"><div role="heading" class="note-title marker" id="h-note-101" aria-level="3"><span>Nota</span></div><p class="">Os tamanhos de 18 e de 14 pontos para textos de línguas romanicas são obtidos a partir do tamanho mínimo para impressão em caracteres ampliados (14pt) e do tamanho padronizado maior (18pt). Para tipos de letra de línguas como a Chinesa, Japonesa e Coreana (CJK), os tamanhos "equivalentes" seriam o tamanho mínimo para impressão em caracteres ampliados utilizado para aquelas línguas e o tamanho padronizado imediatamente a seguir.</p></div></dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-legal-commitments">compromissos legais</dfn></dt>
-			<dd>
-				<p>transações em que o indivíduo incorre num compromisso ou benefício juridicamente vinculativo</p>
-				<p class="example">Uma certidão de casamento, uma transação bolsista (financeira e jurídica), um testamento, um empréstimo, uma adoção, um alistamento no exército, um qualquer tipo de contrato, etc.</p>
-			</dd>
-
-			<dt><dfn data-lt="purpose of each link|link purpose" data-dfn-type="dfn" id="dfn-purpose-of-each-link">propósito de cada hiperligação</dfn></dt>
-			<dd>
-				<p>natureza do resultado obtido pelo pressionar de uma hiperligação</p>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-live">em direto</dfn></dt>
-			<dd>
-				<p>informação obtida a partir de um evento real e transmitida ao recetor em tempo real, sem outro atraso que não seja o da transmissão.</p>
-				<div class="note" id="issue-container-generatedID-102"><div role="heading" class="note-title marker" id="h-note-102" aria-level="3"><span>Nota</span></div><p class="">O atraso de transmissão consiste num pequeno atraso (normalmente automatizado) utilizado, por exemplo, para dar tempo ao transmissor de colocar em fila de espera ou censurar a transmissão do áudio (ou vídeo), mas não o tempo suficiente para permitir uma edição significativa.</p></div>
-				<div class="note" id="issue-container-generatedID-103"><div role="heading" class="note-title marker" id="h-note-103" aria-level="3"><span>Nota</span></div><p class="">Se a informação for totalmente gerada por computador, então não é informação em direto.</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-lower-secondary-education-level">nível de educação secundário inferior</dfn></dt>
-			<dd>
-				<p>o período de dois ou três anos de escolaridade que tem início após a conclusão dos primeiros seis anos de escolaridade e que termina nove anos após o início da <a href="#dfn-primary-education" class="internalDFN" data-link-type="dfn">educação primária</a></p>
-				<div class="note" id="issue-container-generatedID-104"><div role="heading" class="note-title marker" id="h-note-104" aria-level="3"><span>Nota</span></div><p class="">Esta definição baseia-se na <em xml:lang="en" lang="en">International Standard Classification of Education</em> [<cite><a class="bibref" href="#bib-UNESCO">UNESCO</a></cite>].</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-mechanism">mecanismo</dfn></dt>
-			<dd>
-				<p><a href="#dfn-processes" class="internalDFN" data-link-type="dfn">processo</a> ou técnica para alcançar um resultado</p>
-				<div class="note" id="issue-container-generatedID-105"><div role="heading" class="note-title marker" id="h-note-105" aria-level="3"><span>Nota</span></div><p class="">O mecanismo pode ser explicitamente fornecido no conteúdo, ou pode ser <a href="#dfn-relied-upon" class="internalDFN" data-link-type="dfn">fiável</a> a sua disponibilização quer às plataformas quer aos <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agentes de utilizador</a>, nos quais se incluem as <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn">tecnologias de apoio</a>.</p></div>
-				<div class="note" id="issue-container-generatedID-106"><div role="heading" class="note-title marker" id="h-note-106" aria-level="3"><span>Nota</span></div><p class="">O mecanismo necessita de satisfazer todos os critérios de sucesso correspondentes ao nível de conformidade reivindicado.</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-media-alternative-for-text">alternativa em media para texto</dfn></dt>
-			<dd>
-				<p>media que não apresenta mais informação à que já é apresentada em texto (diretamente ou por via de alternativas em texto)</p>
-				<div class="note" id="issue-container-generatedID-107"><div role="heading" class="note-title marker" id="h-note-107" aria-level="3"><span>Nota</span></div><p class="">Uma alternativa em media para texto é disponibilizada para aqueles que beneficiam de representações alternativas de texto. As alternativas em media para texto podem ser conteúdo de apenas áudio, apenas vídeo (incluindo vídeo de língua gestual), ou áudio-vídeo.</p></div>
-			</dd>
-			<dd class="new">
-				<p>adição de passos entre condições para criar a ilusão de movimento ou dar uma sensação de transição suave</p>
-				<p class="example">Por exemplo, um elemneto que se move no lugar ou que altera o tamanho enquanto aparece  é considerado ser animado. Um elemento que surge instantaneamente sem transições não está a usar animação. Animação de movimento não inclui alterações de cor, de desfocagem ou opacidade.</p>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-name">nome</dfn></dt>
-			<dd>
-				<p>texto a partir do qual o software pode identificar uma componente do conteúdo Web e disponibilizá-la ao utilizador</p>
-				<div class="note" id="issue-container-generatedID-108"><div role="heading" class="note-title marker" id="h-note-108" aria-level="3"><span>Nota</span></div><p class="">O nome pode estar escondido e ser exposto apenas à tecnologia de apoio, enquanto que uma <a href="#dfn-labels" class="internalDFN" data-link-type="dfn">etiqueta</a> é apresentada a todos os utilizadores. Em muitos (mas não todos) casos, a etiqueta e o nome são o mesmo.</p></div>
-				<div class="note" id="issue-container-generatedID-109"><div role="heading" class="note-title marker" id="h-note-109" aria-level="3"><span>Nota</span></div><p class="">Isto não está relacionado com o atributo <code>name</code> da linguagem HTML.</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-navigated-sequentially">sequencialmente navegável</dfn></dt>
-			<dd>
-				<p>navegável na ordem definido para o avanço do foco (de um elemento para o próximo) utilizando uma <a href="#dfn-keyboard-interface" class="internalDFN" data-link-type="dfn">interface de teclado</a></p>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-non-text-content">conteúdo não textual</dfn></dt>
-			<dd>
-				<p>qualquer conteúdo que não é uma sequência de carateres que pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinado</a> ou sempre que a sequência não expresse algo em <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua humana</a></p>
-				<div class="note" id="issue-container-generatedID-110"><div role="heading" class="note-title marker" id="h-note-110" aria-level="3"><span>Nota</span></div><p class="">Isto inclui <a href="#dfn-ascii-art" class="internalDFN" data-link-type="dfn">Arte ASCII</a> (a qual é um padrão de carateres), emoticons, leetspeak (o qual utiliza substituição de carateres), e imagens representando texto</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-normative">normativo</dfn></dt>
-			<dd>
-				<p>obrigatório para conformidade</p>
-				<div class="note" id="issue-container-generatedID-111"><div role="heading" class="note-title marker" id="h-note-111" aria-level="3"><span>Nota</span></div><p class="">Uma forma, da variedade de formas bem definidas, de apresentação deve estar em conformidade para com este documento.</p></div>
-				<div class="note" id="issue-container-generatedID-112"><div role="heading" class="note-title marker" id="h-note-112" aria-level="3"><span>Nota</span></div><p class="">O conteúdo identificado como "<a href="#dfn-informative" class="internalDFN" data-link-type="dfn">informativo</a>" ou "não normativo" nunca é considerado obrigatório para efeitos de <a href="#dfn-conform" class="internalDFN" data-link-type="dfn">conformidade</a>.</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-on-a-full-screen-window">numa janela em ecrã completo</dfn></dt>
-			<dd>
-				<p>no ecrã de tamanho mais comum de um desktop/laptop com a viewport (janela de visualização) maximizada</p>
-				<div class="note" id="issue-container-generatedID-113"><div role="heading" class="note-title marker" id="h-note-113" aria-level="3"><span>Nota</span></div><p class="">Uma vez que as pessoas mantêm geralmente os seus computadores por vários anos, quando efetuar esta avaliação, é melhor não usar por referência as resoluções de ecrã dos laptops/desktops recentemente lançados mas considerar as resoluções dos ecrãs dos desktop/laptop mais usados nos últimos anos.</p></div>
-			</dd>
-
-			<dt><dfn data-lt="pause|paused" data-dfn-type="dfn" id="dfn-pause">pausado</dfn></dt>
-			<dd>
-				<p>parado a pedido do utilizador e que não prossegue até que seja solicitado pelo utilizador</p>
-			</dd>
-
-			<dt class="new"><dfn data-lt="pointer inputs|pointer input" data-dfn-type="dfn" id="dfn-pointer-inputs">apontador de entrada</dfn></dt>
-			<dd class="new">
-				<p>dispositivo de entrada, como seja um rato, uma caneta ou um contacto por toque, que pode alvejar uma coordenada específica (ou conjunto de coordenadas) de um ecrã.</p>
-				<p>Consulte também <a href="https://www.w3.org/TR/pointerevents/#dfn-pointer">Definição de ponteiro de Eventos de Ponteiro</a> [<cite><a class="bibref" href="#bib-pointerevents">pointerevents</a></cite>].</p>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-prerecorded">prégravado</dfn></dt>
-			<dd>
-				<p>informação que não é <a href="#dfn-live" class="internalDFN" data-link-type="dfn">em direto</a></p>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-presentation">apresentação</dfn></dt>
-			<dd>
-				<p>representação do <a href="#dfn-content" class="internalDFN" data-link-type="dfn">conteudo</a> numa forma capaz de ser percecionada pelos utilizadores</p>
-
-			</dd>
-
-			<dt><dfn data-lt="primary education|primary education level" data-dfn-type="dfn" id="dfn-primary-education">nível de educação primário</dfn></dt>
-			<dd>
-				<p>período de tempo de seis anos que se inicia entre os cinco e os sete anos de idade, possivelmente sem qualquer educação formal prévia</p>
-				<div class="note" id="issue-container-generatedID-114"><div role="heading" class="note-title marker" id="h-note-114" aria-level="3"><span>Nota</span></div><p class="">Esta definição baseia-se no <em xml:lang="en" lang="en">International Standard Classification of Education</em></p></div>
-			</dd>
-
-			<dt><dfn data-lt="processes|process" data-dfn-type="dfn" id="dfn-processes">processo</dfn></dt>
-			<dd>
-				conjunto de ações do utilizador, em que cada ação é necessária para executar uma atividade
-				<p>uma série de ações de utilizador, em que cada ação é necessária para levar a efeito e completar uma atividade</p>
-				Uma boa utilização de uma série de páginas Web num sítio de compras requer que os utilizadores visualizem produtos, preços e ofertas alternativas, selecionem produtos, submetam uma encomenda, forneçam informação sobre o envio e sobre o pagamento.
-				<p class="example">Uma utilização com sucesso de uma série de páginas Web de uma loja online obriga os utilizadores a ver diversas alternativas de produtos, de preços e ofertas, a selecionar produtos, a submeter uma encomendas, a disponibilizar informação de expedição e a disponibilizar informação relacionada com o pagamento.</p>
-				<p class="example">Uma página de registo de conta obriga ao preenchimento com sucesso do teste de <em xml:lang="en" lang="en">Turing</em> antes de se poder aceder ao formulário de registo.</p>
-			</dd>
-
-			<dt><dfn data-lt="programmatically determinable|programmatically determined" data-dfn-type="dfn" id="dfn-programmatically-determinable">programaticamente determinado</dfn> (programaticamente determinável)</dt>
-			<dd>
-				<p>determinado pelo software a partir de dados fornecidos pelo autor, disponibilizados de uma forma que diferentes <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agentes de utilizador</a>, incluindo <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn">tecnologias de apoio</a>, podem extraír e apresentar esta informação aos utilizadores de diferentes maneiras</p>
-				<div class="note" id="issue-container-generatedID-115"><div role="heading" class="note-title marker" id="h-note-115" aria-level="3"><span>Nota</span></div><p class="">Determinado numa linguagem de marcação a partir dos elementos e dos atributos que são acedidos diretamente pela tecnologia de apoio comummente à disposição.</p></div>
-				<div class="note" id="issue-container-generatedID-116"><div role="heading" class="note-title marker" id="h-note-116" aria-level="3"><span>Nota</span></div><p class="">Determinado a partir de estruturas de dados de tecnologia específica numa linguagem que não é de marcação e que são expostos à tecnologia de apoio via uma API de acessibilidade que é suportada pela tecnologia de apoio comummente à disposição.</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-programmatically-determined-link-context">contexto da hiperligação programaticamente determinado</dfn></dt>
-			<dd>
-				<p>informação adicional que pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinada</a> a partir de <a href="#dfn-relationships" class="internalDFN" data-link-type="dfn">relacionamentos</a> com a hiperligação, combinada com o texto da hiperligação e apresentada aos utilizadores de diferentes maneiras</p>
-				<p class="example">Em HTML, a informação que é programaticamente determinável a partir de uma hiperligação em Inglês inclui texto que se encontra no mesmo parágrafo, lista, ou célula da tabela onde a hiperligação se encontra ou numa célula de cabeçalho de tabela associada à célula da tabela onde a hiperligação se encontra.</p>
-				<div class="note" id="issue-container-generatedID-117"><div role="heading" class="note-title marker" id="h-note-117" aria-level="3"><span>Nota</span></div><p class="">Uma vez que os leitores de ecrã interpretam a pontuação, eles fornecem também a frase como contexto da hiperligação em que o foco se encontra.</p></div>				
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-programmatically-set">programaticamente configurado</dfn></dt>
-			<dd>
-				<p>configurado pelo software utilizando métodos suportados pelos agentes de utilizador, incluindo tecnologias de apoio</p>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-pure-decoration">pura decoração</dfn></dt>
-			<dd>
-				<p>serve apenas um propóstio estético, não fornecendo informação nem disponibilizando funcionalidade</p>
-				<div class="note" id="issue-container-generatedID-118"><div role="heading" class="note-title marker" id="h-note-118" aria-level="3"><span>Nota</span></div><p class="">O texto é puramente decorativo se as palavras podem ser reordenadas ou substituídas sem alteração do seu propósito.</p></div>
-				<p class="example">A página que serve de capa a um dicionário tem como plano de fundo palavras aleatórias em tons muito claros.</p>
-			</dd>
-
-			<dt><dfn data-lt="real-time events|real-time event" data-dfn-type="dfn" id="dfn-real-time-events">evento em tempo real</dfn></dt>
-			<dd>
-				<p>evento que a) ocorre simultaneamente à sua visualização e b) não é completamente gerado pelo conteúdo</p>
-				<p class="example">Uma <em xml:lang="en" lang="en">Webcast</em> (transmissão Web) de um espetáculo em direto (ocorre simultaneamente à sua visualização e não é prégravado).</p>
-				<p class="example">Um leilão online com as pessoas a licitar (ocorre simultaneamente à sua visualização).</p>
-				<p class="example">Humanos interagindo em direto num mundo virtual utilizando avatares (não é completamente gerado pelo conteúdo e ocorre simultaneamente à sua visualização).</p>
-			</dd>
-
-			<dt class="new"><dfn data-lt="regions|region" data-dfn-type="dfn" id="dfn-regions">região</dfn></dt>
-			<dd class="new">
-				<p>secção do conteúdo percetível, programaticamente determinada</p>
-				<div class="note" id="issue-container-generatedID-119"><div role="heading" class="note-title marker" id="h-note-119" aria-level="3"><span>Nota</span></div><p class="">Em HTML, qualquer área designada com a <em xml:lang="en" lang="en">landmark</em> (ponto de referência) <code>role</code> seria uma região.</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-relationships">relacionamentos</dfn></dt>
-			<dd>
-				<p>associações significantes entre distintas partes do conteúdo</p>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-relative-luminance">luminescência relativa</dfn></dt>
-			<dd>
-				a luminescência relativa de um qualquer ponto num espaço de cor, em que 0 é para o preto mais escuro e 1 para o branco mais claro
-
-				<p>o brilho relativo de um qualquer ponto num espetro de cor, normalizado para 0 para o preto mais escuro e 1 para o branco mais claro</p>
-				<div class="note" id="issue-container-generatedID-120"><div role="heading" class="note-title marker" id="h-note-120" aria-level="3"><span>Nota</span></div><div class="">
-					<p>Para um espetro de cor sRGB, a luminescência relativa de uma cor é definida como L = 0.2126 * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> em que <strong>R</strong>, <strong>G</strong> e <strong>B</strong> são definidos como:</p>
-					<ul>
-						<li>Se RsRGB &lt;= 0.03928 então <strong>R</strong> = RsRGB/12.92 se não <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4</li>
-						<li>Se GsRGB &lt;= 0.03928 então <strong>G</strong> = GsRGB/12.92 se não <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4</li>
-						<li>Se BsRGB &lt;= 0.03928 então <strong>B</strong> = BsRGB/12.92 se não <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4</li>
-					</ul>
-					<p>e RsRGB, GsRGB, e BsRGB são definidos como:</p>
-					<ul>
-						<li>RsRGB = R8bit/255</li>
-						<li>GsRGB = G8bit/255</li>
-						<li>BsRGB = B8bit/255</li>
-					</ul>
-					<p>O caráter "^" é o operador de exponenciação. (Fórmula retirada de [<cite><a class="bibref" href="#bib-sRGB">sRGB</a></cite>] e [<cite><a class="bibref" href="#bib-IEC-4WD">IEC-4WD</a></cite>]).</p>
-				</div>
-			</div>
-			<div class="note" id="issue-container-generatedID-121"><div role="heading" class="note-title marker" id="h-note-121" aria-level="3"><span>Nota</span></div><p class="">Praticamente todos os sistemas utilizados hoje em dia para visualizar conteúdo Web assume a codificação sRGB. A não ser que se saiba que será usado um outro espetro de cor para processar e mostrar conteúdo, os autores devem efetuar as avaliações tendo por base o espetro de cor sRGB. Se usar outro espetro de cor, consulte <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Compreendendo o Critério de Sucesso 1.4.3</a>.</p></div>
-			<div class="note" id="issue-container-generatedID-122"><div role="heading" class="note-title marker" id="h-note-122" aria-level="3"><span>Nota</span></div><p class="">Se ocorrer um pontilhado após a apresentação, então será usado o valor da cor na sua origem. Para cores que estão pontilhadas na sua origem, os valores médios das cores que estão pontilhadas devem ser usadas (média de R, média de G, e média de B).</p></div>
-			<div class="note" id="issue-container-generatedID-123"><div role="heading" class="note-title marker" id="h-note-123" aria-level="3"><span>Nota</span></div><p class="">Existem ferramentas que fazem automaticamente os cálculos quando se testa contraste e flash.</p></div>
-			<div class="note" id="issue-container-generatedID-124"><div role="heading" class="note-title marker" id="h-note-124" aria-level="3"><span>Nota</span></div><p class="">Está disponível uma <a href="relative-luminance.xml">versão em MathML da definição de luminescência relativa</a>.</p></div>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-relied-upon">fiáveis</dfn> (tecnologias que são)</dt>
-		<dd>
-			<p>o conteúdo não estaria <a href="#dfn-conform" class="internalDFN" data-link-type="dfn">conforme</a> se essa <a href="#dfn-technologies" class="internalDFN" data-link-type="dfn">tecnologia</a> fosse desligada ou se não fosse suportada</p>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-role">papel</dfn></dt>
-		<dd>
-			<p>texto ou número através do qual o software pode identificar a função de um componente numa página Web</p>
-			<p class="example">Um número que indica onde é que uma imagem desempenha a função de uma hiperligação, botão ou caixa de verificação.</p>
-		</dd>
-
-		<dt><dfn data-dfn-type="dfn" id="dfn-same-functionality">a mesma funcionalidade</dfn></dt>
-		<dd><p>o mesmo resultado quando usado como</p>
-			<p class="example">Um botão "pesquisa" numa página Web e um botão "buscar" numa outra página Web devem ter ambos um campo para introduzir o termo e a lista de tópicos do sítio Web relacionada com o termo submetido.  Neste caso, eles teriam a mesma funcionalidade mas não seriam etiquetados consistentemente.</p></dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-same-relative-order">a mesma ordem relativa</dfn></dt>
-			<dd>
-				<p>same position relative to other items</p>
-				<div class="note" id="issue-container-generatedID-125"><div role="heading" class="note-title marker" id="h-note-125" aria-level="3"><span>Nota</span></div><p class="">Os itens são considerados estar na mesma ordem relativa mesmo se forem inseridos ou removidos outros itens da ordem original. Por exemplo, os menus de navegação de expansão devem inserir um nível adicional de detalhe, ou uma secção secundária de navegação deve ser inserida dentro da ordem de leitura.</p></div>
-			</dd>
-
-			<dt><dfn data-lt="satisfies|satisfies a success criterion" data-dfn-type="dfn" id="dfn-satisfies">satisfaz um critério de sucesso</dfn></dt>
-			<dd>
-				<p>o critério de sucesso não é avaliado como 'falso' quando aplicado à página</p>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-section">secção</dfn></dt>
-			<dd>
-				<p>uma porção auto contida de conteúdo escrito que negoceia com um ou mais tópicos ou pensamentos relacionados</p>
-				<div class="note" id="issue-container-generatedID-126"><div role="heading" class="note-title marker" id="h-note-126" aria-level="3"><span>Nota</span></div><p class="">Uma secção deve consistir de um ou mais parágrafos e inclui gráficos, tabelas, listas e subsecções.</p></div>
-			</dd>
-
-			<dt><dfn data-dfn-type="dfn" id="dfn-set-of-web-pages">conjunto de páginas Web</dfn></dt>
-			<dd>
-				<p>coleção de <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">páginas web</a> que partilham um propósito comum e que são criados pelo mesmo autor, grupo ou organização</p>
-				<p class="example">Exemplos incluem uma publicação, a qual está dividida ao longo de múltiplas páginas Web, em que cada página contém um capítulo ou outra secção relevante do trabalho. A publicação é logicamente uma única unidade contígua, e contém funcionalidades de navegação que permitem aceder integralmente ao conjunto de páginas.</p>
-				<div class="note" id="issue-container-generatedID-127"><div role="heading" class="note-title marker" id="h-note-127" aria-level="3"><span>Nota</span></div><p class="">Para diferentes versões de idioma seriam considerados diferentes conjuntos de páginas Web.</p></div></dd>
-
-				<dt><dfn data-dfn-type="dfn" id="dfn-sign-language">língua gestual</dfn></dt>
-				<dd>
-					<p>uma língua que utiliza combinações de movimentos de mãos e braços, expressões faciais ou posições corporais para transmitir significados</p>
-				</dd>
-
-				<dt><dfn data-dfn-type="dfn" id="dfn-sign-language-interpretation">interpretação em língua gestual</dfn></dt>
-				<dd>
-					<p>tradução de uma língua, geralmente uma língua falada, numa <a href="#dfn-sign-language" class="internalDFN" data-link-type="dfn">língua gestual</a></p>
-					<div class="note" id="issue-container-generatedID-128"><div role="heading" class="note-title marker" id="h-note-128" aria-level="3"><span>Nota</span></div><p class="">As línguas gestuais genuínas são línguas independentes que não estão relacionadas com a(s) lingua(s) faladas do mesmo país ou região.</p></div>
-				</dd>
-
-				<dt class="new"><dfn data-dfn-type="dfn" id="dfn-single-pointer">um só apontador</dfn></dt>
-				<dd class="new">
-					<p>apontador de entrada que opera com um ponto de contacto com o ecrã, incluindo toques e cliques únicos, duplos toques e cliques, pressão prolongada e gestos sequenciais</p>
-				</dd>
-
-				<dt><dfn data-dfn-type="dfn" id="dfn-specific-sensory-experience">experiência sensorial específica</dfn></dt>
-				<dd>
-					<p>uma experiência sensorial que não é puramente decorativa e que não transmite principalmente informação importante ou desempenha uma função</p>
-					<p class="example">Exemplos incluem tocar um solo de flauta, trabalhos com artes visuais, etc.</p>
-				</dd>
-
-				<dt class="new"><dfn data-lt="states|state" data-dfn-type="dfn" id="dfn-states">estado</dfn></dt>
-				<dd class="new">
-					<p>propriedade dinâmica que expressa caraterísticas de uma componente de interface de utilizador que deve alterar em resposta à ação do utilizador ou processos automatizados</p>
-					<p>Os Estados não afetam a natureza do componente, mas representa dados associados com a componente ou as possibilidades de interação do utilizador. Os exemplos incluem foco, sobre o, seleção, pressionar, verificar, visitado/não visitado e o expandir/compactar.</p>
-				</dd>
-
-				<dt class="new"><dfn data-lt="status messages|status message" data-dfn-type="dfn" id="dfn-status-messages">mensagem de <em xml:lang="en" lang="en">status</em></dfn></dt>
-				<dd class="new">
-					<p>alteração no conteúdo que não corresponde a uma <a href="#dfn-change-of-context" class="internalDFN" data-link-type="dfn">alteração de contexto</a>, e que disponibiliza informação ao utilizador sobre o sucesso ou resultados de uma ação, sobre o estado de espera de uma aplicação, sobre o progresso de um processo ou sobre a existência de erros</p>
-				</dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-structure">estrutura</dfn></dt>
-                <dd>
-                	<ol>
-                		<li>A forma como as partes de uma <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a> estão organizadas relativamente umas às outras; e</li>
-                		<li>A forma como uma coleção de <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">páginas Web</a> está organizada</li>
-                	</ol>
-                </dd>
-
-                <dt class="new"><dfn data-lt="style properties|style property" data-dfn-type="dfn" id="dfn-style-properties">propriedade de estilo</dfn></dt>
-                <dd class="new">
-                	<p>propriedade cujo valor determina a apresentação (e.g. tipo de letra, cor, tamanho, localização, <em xml:lang="en" lang="en">padding</em>, volume, prosódia da fala sintetizada) dos elementos de conteúdo tal como são interpretados (e.g. no ecrã, em voz alta, em ecrãs braille) pelos agentes de utilizador</p>
-                	<p>As propriedades de estilo podem ter várias origens:</p>
-                	<ul>
-                		<li>Estilos prédefinidos no agente de utilizador: os valores prédefinidos da propriedade de estilo aplicáveis na ausência de estilos definidos pelo autor ou pelo utilizador. Algumas tecnologias de conteúdo Web especificam um resultado prédefinido, outras não o fazem;</li>
-                		<li>Estilos de autor: valores da propriedade de estilo que são configuradas pelo autor como parte do conteúdo (e.g. estilos in-line, folhas de estilo do author);</li>
-                		<li>Estilos de utilizador: valores de propriedade estilo que são configuradas pelo utilizador (e.g. via interface de configuração do agente de utilizador, folhas de estilo do utilizador)</li>
-                	</ul>
-                </dd>
-
-                <dt><dfn data-lt="supplementary content|supplemental content" data-dfn-type="dfn" id="dfn-supplementary-content">conteúdo suplementar</dfn></dt>
-                <dd>
-                	<p><a href="#dfn-content" class="internalDFN" data-link-type="dfn">conteúdo</a> adicioal que ilustra ou clarifica o conteúdo principal</p>
-                	<p class="example">Uma versão áudio de uma <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">página Web</a>.</p>
-                	<p class="example">Uma ilustração de um <a href="#dfn-processes" class="internalDFN" data-link-type="dfn">processo</a> complexo.</p>
-                	<p class="example">Um parágrafo que sumariza os resultados e as recomendações principais de um estudo de investigação.</p>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-synchronized-media">media sincronizada</dfn></dt>
-                <dd>
-                	<p><a href="#dfn-audio" class="internalDFN" data-link-type="dfn">áudio</a> ou <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> sincronizados com outro formato para apresentar informação e/ou com componentes interactivas dinâmicas ou contínuas, a menos que a media seja uma <a href="#dfn-media-alternative-for-text" class="internalDFN" data-link-type="dfn">alternativa em media para texto</a> que esteja claramente etiquetado como tal</p>
-                </dd>
-
-                <dt class="new"><dfn data-dfn-type="dfn" id="dfn-target">alvo</dfn></dt>
-                <dd class="new">
-                	<p>região do ecrã que aceitará uma ação de apontador, como seja o caso de uma área interativa de uma compunente da interface de utilizador</p>
-                	<div class="note" id="issue-container-generatedID-129"><div role="heading" class="note-title marker" id="h-note-129" aria-level="3"><span>Nota</span></div><p class="">Se dois ou mais mais alvos de toque se encontrarem sobrepostos, a área de sobreposição não deve ser incluída nas medições do tamanho do alvo, exceto quando os alvos sobrepostos executarem a mesma ação ou abram a mesma página.</p></div>
-                </dd>
-
-                <dt><dfn data-lt="technologies|web technology|web content technology|web content technologies|technology" data-dfn-type="dfn" id="dfn-technologies">tecnologia</dfn> (Conteúdo Web)</dt>
-                <dd>
-                	<p><a href="#dfn-mechanism" class="internalDFN" data-link-type="dfn">mecanismo</a> para codificar instruções a serem interpretadas, lidas ou executadas pelos <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agentes de utilizador</a></p>
-                	<div class="note" id="issue-container-generatedID-130"><div role="heading" class="note-title marker" id="h-note-130" aria-level="3"><span>Nota</span></div><p class="">Tal como é utilizado nestas diretrizes "Tecnologia Web" e a palavra "tecnologia" (quando usada sozinha) referem-se ambas a Tecnologias de Conteúdo Web.</p></div>
-                	<div class="note" id="issue-container-generatedID-131"><div role="heading" class="note-title marker" id="h-note-131" aria-level="3"><span>Nota</span></div><p class="">As tecnologias de conteúdo Web devem incluir linguagens de marcação, formatos de dados ou linguagens de programação que os autores podem usar de forma isolada ou de forma combinada para criarem experiências para os utilizadores finais que vão desde páginas estáticas, passando por apresentações de media sincronizadas, a aplicações Web dinâmicas.</p></div>
-                	<p class="example">Alguns exemplos de tecnologias de conteúdo Web incluem HTML, CSS, SVG, PNG, PDF, Flash, e JavaScript.</p>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-text">texto</dfn></dt>
-                <dd>
-                	<p>sequência de carateres que pode ser <a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">programaticamente determinado</a>, em que a sequência expressa algo em <a href="#dfn-human-language-s" class="internalDFN" data-link-type="dfn">língua humana</a></p>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-text-alternative">alternativa em texto</dfn></dt>
-                <dd>
-                	<p><a href="#dfn-text" class="internalDFN" data-link-type="dfn">Texto</a> que está programaticamente associado com o <a href="#dfn-non-text-content" class="internalDFN" data-link-type="dfn">conteúdo não textual</a> ou que é referido a partir de texto que é programaticamente associado com conteúdo não textual. O texto programaticamente associado é o texto cuja localização pode ser programaticamente determinada a partir do conteúdo não textual.</p>
-                	<p class="example">Uma imagem de um gráfico é descrita em texto no parágrafo que se encontra a seguir ao gráfico. A curta alternativa em texto para o gráfico indica que exite uma descrição a seguir.</p>
-                	<div class="note" id="issue-container-generatedID-133"><div role="heading" class="note-title marker" id="h-note-133" aria-level="3"><span>Nota</span></div><p class="">Consulte o <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Compreendendo Alternativas em Texto</a> para mais informação.</p></div>
-                </dd>
-
-                <dt class="new"><dfn data-dfn-type="dfn" id="dfn-up-event">up-event</dfn></dt>
-                <dd class="new">
-                	<p>evento de plataforma que ocorre quando o <em xml:lang="en" lang="en">trigger stimulus</em> (interruptor) de um apontador é libertado</p>
-                	<p>O up-event pode ter diferentes nomes em diferentes plataformas, tais como "touchend" ou "mouseup".</p>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-used-in-an-unusual-or-restricted-way">utilizadas de forma invulgar ou de um modo restrito</dfn></dt>
-                <dd>
-                	<p>palavras utilizadas de tal forma que obrigam os utilizadores a saberem exatamente que definição usar, de forma a compreenderem o conteúdo corretamente</p>
-                	<p class="example">O termo "gig" significa algo diferente se ocorre numa discusão de concertos de música ou se está num artigo sobre espaço de um disco rígido de um computador, mas a definição apropriada pode ser determinada a partir do contexto. Por contraste, a palavra "texto" é utilizada de uma forma muito específica nas WCAG 2.1, razão pela qual é fornecida uma definião no glossário.</p>
-                </dd>
-
-                <dt><dfn data-lt="user agents|user agent" data-dfn-type="dfn" id="dfn-user-agents">agente de utilizador</dfn></dt>
-                <dd>
-                	<p>qualquer software que recolhe e apresenta conteúdo Web para os utilizadores</p>
-                	<p class="example">Navegadores Web, leitores de media, plug-ins e outros programas — incluindo <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn">tecnologias de apoio</a> — que ajudam na captura, interpretação e interação com o conteúdo Web.</p>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-user-controllable">controlável pelo utilizador</dfn></dt>
-                <dd>
-                	<p>dados que são intencionalmente para serem acedidos pelos utilizadores</p>
-                	<div class="note" id="issue-container-generatedID-134"><div role="heading" class="note-title marker" id="h-note-134" aria-level="3"><span>Nota</span></div><p class="">Isto não se refere a coisas como arquivo de registos de Internet ou dados de monitorização de motores de pesquisa.</p></div>
-                	<p class="example">Os campos nome e morada para uma conta do utilizador.</p>
-                </dd>
-
-                <dt><dfn data-lt="user interface components|user interface component" data-dfn-type="dfn" id="dfn-user-interface-components">componente de interface de utilizador</dfn></dt>
-                <dd>
-                	<p>uma parte do conteúdo que é percetível pelos utilizadores como um controlo único para uma função distinta</p>
-                	<div class="note" id="issue-container-generatedID-135"><div role="heading" class="note-title marker" id="h-note-135" aria-level="3"><span>Nota</span></div><p class="">Múltiplas componentes da interface de utilizador podem ser implementadas como um elemento programático único. As componentes aqui não estão estritamente ligadas às técnicas de programação mas mais ao como o utilizador as perceciona enquanto controlos separados.</p></div>
-                	<div class="note" id="issue-container-generatedID-136"><div role="heading" class="note-title marker" id="h-note-136" aria-level="3"><span>Nota</span></div><p class="">As componentes da interface de utilizador incluem elementos de formulário e hiperligações assim como componentes geradas através de  <em xml:lang="en" lang="en">scripts</em>.</p></div>
-                	<div class="note" id="issue-container-generatedID-137"><div role="heading" class="note-title marker" id="h-note-137" aria-level="3"><span>Nota</span></div><p class="">O que aqui se entende por "componente" ou "componente de interface de utilizador" é também, por vezes, designado de "elemento da interface de utilizador".</p></div>
-                	<p class="example">Uma applet tem um "controlo" que pode ser usado para se mover pelo conteúdo linha a linha, ou página a página, ou aceder de forma aleatória. Uma vez que cada um destes necessitaria de ter um nome e ser configurado independentemente, cada um deles seria uma "componente de interface de utilizador."</p>
-                </dd>
-
-                <dt class="new"><dfn data-dfn-type="dfn" id="dfn-user-inactivity">inatividade do utilizador</dfn></dt>
-                <dd class="new">
-                	<p>qualquer periodo de tempo contínuo em que não ocorrem ações por parte do utilizador</p>
-                	<p>O método de rastreamento será determinado pelo sítio Web ou aplicação.</p>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-video">vídeo</dfn></dt>
-                <dd>
-                	<p>a tecnologia dos filmes ou de imagens sequenciais ou de imagens</p>
-                	<div class="note" id="issue-container-generatedID-138"><div role="heading" class="note-title marker" id="h-note-138" aria-level="3"><span>Nota</span></div><p class="">O vídeo pode ser composto por imagens fotográficas ou animadas, ou por ambas.</p></div>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-video-only">apenas vídeo</dfn></dt>
-                <dd>
-                	<p>uma apresentação dinâmica ou contínua que contém apenas <a href="#dfn-video" class="internalDFN" data-link-type="dfn">vídeo</a> (sem <a href="#dfn-audio" class="internalDFN" data-link-type="dfn">áudio</a> nem interação)</p>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-viewport">viewport (janela de visualização)</dfn></dt>
-                <dd>
-                	<p>objeto no qual o agente de utilizador apresenta o conteúdo</p>
-                	<div class="note" id="issue-container-generatedID-139"><div role="heading" class="note-title marker" id="h-note-139" aria-level="3"><span>Nota</span></div><p class="">O <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a> apresenta o conteúdo através de uma ou mais <em xml:lang="en" lang="en">viewports</em> (janelas de apresentação). As <em xml:lang="en" lang="en">Viewports</em> incluem janelas, molduras, altifalantes e óculos de ampliação virtual. Uma <em xml:lang="en" lang="en">viewport</em> pode conter outra <em xml:lang="en" lang="en">viewport</em> (e.g., molduras encadeadas). As componentes da interface criadas pelos agentes de utilizador tais como <em xml:lang="en" lang="en">prompts</em>, menus, e alertas não são <em xml:lang="en" lang="en">viewports</em>.</p></div>
-                	<div class="note" id="issue-container-generatedID-140"><div role="heading" class="note-title marker" id="h-note-140" aria-level="3"><span>Nota</span></div><p class="">Esta definição baseia-se nas <a href="https://www.w3.org/TR/WAI-USERAGENT/glossary.html">no Glossário das Diretrizes de Acessibilidade dos Agentes de Utilizador 1.0</a> [<cite><a class="bibref" href="#bib-UAAG10">UAAG10</a></cite>].</p></div>
-                </dd>
-
-                <dt><dfn data-dfn-type="dfn" id="dfn-visually-customized">personalizado visualmente</dfn></dt>
-                <dd>
-                	<p>o tipo de letra, o tamanho, a cor e o plano de fundo podem ser configurados</p>
-                </dd>
-
-                <dt><dfn data-lt="web page(s)|web pages|web page" data-dfn-type="dfn" id="dfn-web-page-s">página Web</dfn></dt>
-                <dd>
-                	um recurso não incorporado, obtido a partir de um único URI utilizando HTTP mais quaisquer outros recursos que sejam utilizados na interpretação ou destinados a serem interpretados em conjunto por um agente de utilizador
-
-                	<p>um recurso não incorporado, obtido a partir de um único URI utilizando HTTP, mais quaisquer outros recursos usados na "renderização" (interpretação) ou pretendidos serem "renderizados" conjuntamente com ele a partir de um <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn">agente de utilizador</a></p>
-                	<div class="note" id="issue-container-generatedID-141"><div role="heading" class="note-title marker" id="h-note-141" aria-level="3"><span>Nota</span></div><p class="">Apesar de quaisquer "outros recursos" precisarem de ser "renderizados" conjuntamente com o recurso principal, eles não precisam de ser obrigatoriamente "renderizados" simultaneamente uns com os outros.</p></div>
-                	<div class="note" id="issue-container-generatedID-142"><div role="heading" class="note-title marker" id="h-note-142" aria-level="3"><span>Nota</span></div><p class="">Para o propósito de conformidade com estas diretrizes, um recurso precisa ser "não incorporado" dentro do âmbito da conformidade a ser considerado na página Web.</p></div>
-                	<p class="example">Um recurso Web inclui todas as imagens e media incorporadas.</p>
-                	<p class="example">Um programa de correio eletrónico na Web, contruído usando <em xml:lang="en" lang="en">Asynchronous JavaScript and XML (AJAX)</em>. O programa funciona integralmente em http://example.com/mail, mas inclui uma caixa de entrada, uma área de contactos e um calendário. As hiperligações ou botões são fornecidos de tal forma que mostram a caixa de entrada, os contactos e o calendário mas não alteram a URI da página como um todo.</p>
-
-                	<p class="example">Um portal personalizável em que os utilizadores podem escolher o conteúdo a visualizar a partir de um conjunto de diferentes módulos de conteúdo.</p>
-                	<p class="example">Ao inserir "http://shopping.example.com/" no seu navegador Web, entra num ambiente de loja interativa do tipo filme em que se movimenta visualmente por toda a loja agarrando produtos das prateleiras e soltando-os num carrinho de compras à sua frente. Ao clicar em cima dos produtos surge uma demonstração numa folha a flutuar ao lado do mesmo. Isto deve ser considerado uma única página do sítio Web ou apenas a página de um sítio Web.</p>
-                </dd>
-            </dl>
-        </section> 
-        
+	</dl>
+</section>      
     	    	
 <section id="input-purposes">
 	<!--OddPage--><h2 id="x7-input-purposes-for-user-interface-components"><span class="secno">7. </span>Propósitos de Entrada para as Componentes da Interface de Utilizador<span class="permalink"><a href="#input-purposes" aria-label="Permalink for 7. Propósitos de Entrada para as Componentes da Interface de Utilizador" title="Permalink for 7. Propósitos de Entrada para as Componentes da Interface de Utilizador"><span>§</span></a></span></h2>
